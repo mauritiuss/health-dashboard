@@ -1,42 +1,46 @@
-import React from "react";
-import { Container, Header, Segment } from "semantic-ui-react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import { Container, Segment, Header } from "semantic-ui-react";
 
-const StepsPage = () => {
-  const navigate = useNavigate();
+const Documentation = () => {
+  const [markdown, setMarkdown] = useState("");
+
+  useEffect(() => {
+    fetch("/bibliografia/bibliografia.md")
+      .then((response) => response.text())
+      .then((text) => {
+        const cleanedMarkdown = text.replace(/^---[\s\S]*?---/, "").trim();
+        setMarkdown(cleanedMarkdown);
+      })
+      .catch((error) => console.error("Errore nel caricamento del file Markdown:", error));
+  }, []);
+
+  const markdownComponents = {
+    p: ({ children }) => <p style={{ marginBottom: "1.5rem" }}>{children}</p>,
+    li: ({ children }) => <li style={{ marginBottom: "1rem" }}>{children}</li>,
+  };
 
   return (
     <div
-          style={{
-            minHeight: "100vh",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "#f4f4f4",
-            width: "100vw",
-            padding: "20px",
-            boxSizing: "border-box",
-            overflowX: "hidden",
-          }}
-        >
-        <Container
-                textAlign="center"
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexWrap: "wrap",
-                  gap: "20px",
-                  maxWidth: "800px",
-                }}
-        >
-      <Segment raised>
-        <Header as="h2">Documentazione scientifica</Header>
-        <p>Qui verrà mostrato un grafico con la documentazione scientifica.</p>
-        <button onClick={() => navigate(-1)}>Torna Indietro</button>
-      </Segment>
-    </Container>
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: "#f4f4f4",
+        width: "100vw",
+        padding: "20px",
+        boxSizing: "border-box",
+        overflowX: "hidden",
+      }}
+    >
+      <Container textAlign="left" style={{ maxWidth: "800px" }}>
+        <Segment raised>
+          <ReactMarkdown components={markdownComponents}>{markdown}</ReactMarkdown>
+        </Segment>
+      </Container>
     </div>
   );
 };
 
-export default StepsPage;
+export default Documentation;
