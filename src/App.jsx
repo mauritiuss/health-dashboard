@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"; //Importa la Navbar
+import CardInfo from "./components/CardInfo"; //Importa la Navbar
 import { Container, Segment } from "semantic-ui-react";
 
 function App() {
@@ -26,29 +27,20 @@ function App() {
           overflowX: "hidden", // Evita lo scroll orizzontale
         }}
       >
-        <Container
+          <Container
           textAlign="center"
           style={{
             display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
-            maxWidth: "100%", // Evita overflow
+            gap: "20px", // Spazio tra le card
+            maxWidth: "800px",
           }}
         >
-          <Segment
-            raised
-            textAlign="center"
-            style={{
-              maxWidth: "600px",
-              width: "90%",
-              padding: "20px",
-              background: "#ffffff",
-              boxSizing: "border-box",
-            }}
-          >
-            <h1>Benvenuto nella Dashboard</h1>
-            <p>Qui verranno mostrati i dati della salute.</p>
-          </Segment>
+          <CardInfo title="Passi Giornalieri" value="10,345" unit="steps" icon="male" />
+          <CardInfo title="Frequenza Cardiaca" value="72" unit="bpm" icon="heartbeat" />
+          <CardInfo title="Ore di Sonno" value="7.5" unit="h" icon="bed" />
+          <CardInfo title="Temperatura del Polso" value="36.5" unit="°C" icon="thermometer half" />
         </Container>
       </div>
     </>
