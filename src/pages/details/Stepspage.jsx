@@ -73,20 +73,6 @@ const StepsPage = () => {
               </Table.Body>
             </Table>
 
-            <button
-              onClick={() => navigate(-1)}
-              style={{
-                marginTop: "20px",
-                padding: "10px 15px",
-                background: "#2185d0",
-                color: "#fff",
-                border: "none",
-                cursor: "pointer",
-                borderRadius: "5px"
-              }}
-            >
-              Torna Indietro
-            </button>
           </Segment>
 
           <Segment raised>
