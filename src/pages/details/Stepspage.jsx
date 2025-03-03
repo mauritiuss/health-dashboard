@@ -43,7 +43,7 @@ const StepsPage = () => {
             gap: "20px",
           }}
         >
-          <Segment raised>
+          <Segment style={{ padding: "40px", margin: "0 20px" }}>
             <Header as="h2">Tabella dei passi giornalieri</Header>
             <p>Di seguito viene riportata una tabella contenente i passi che hai effettuato durante la tua ultima settimana.</p>
             <p>In rosso sono presenti i giorni in cui non hai camminato per almeno 8000 passi.</p>
@@ -62,7 +62,7 @@ const StepsPage = () => {
                     <Table.Cell>{entry.day}</Table.Cell>
                     <Table.Cell
                       style={{
-                        backgroundColor: entry.steps < 8000 ? "#fc8c88" : "transparent",
+                        backgroundColor: entry.steps < 8000 ? "#ffc2c2" : "transparent",
                         color: entry.steps < 8000 ? "white" : "black",
                       }}
                     >
@@ -75,7 +75,7 @@ const StepsPage = () => {
 
           </Segment>
 
-          <Segment raised>
+          <Segment style={{ padding: "40px", margin: "0 20px" }}>
             <Header as="h2">Grafico dei passi</Header>
             <StepsChart data={stepsData} />
           </Segment>
