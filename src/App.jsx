@@ -7,6 +7,7 @@ import StepsPage from "./pages/details/Stepspage";
 import HeartRatePage from "./pages/details/HeartRatePage";
 import SleepPage from "./pages/details/SleepPage";
 import TemperaturePage from "./pages/details/TemperaturePage";
+import Documentation from "./pages/details/Documentation";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/heart-rate" element={<HeartRatePage />} />
         <Route path="/sleep" element={<SleepPage />} />
         <Route path="/temperature" element={<TemperaturePage />} />
+        <Route path="/documentation" element={<Documentation/>} />
       </Routes>
       <Footer />
     </>

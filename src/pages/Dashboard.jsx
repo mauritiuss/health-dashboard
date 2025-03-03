@@ -31,6 +31,7 @@ const Dashboard = () => {
         <CardInfo title="Frequenza Cardiaca" value="72" unit="bpm" icon="heartbeat" link="/heart-rate"/>
         <CardInfo title="Ore di Sonno" value="7.5" unit="h" icon="bed" link="/sleep"/>
         <CardInfo title="Temperatura del Polso" value="36.5" unit="°C" icon="thermometer half" link="/temperature"/>
+        <CardInfo title="Riferimenti scientifici" value="Scopri di più" icon="info" link="/documentation"/>
       </Container>
     </div>
   );
