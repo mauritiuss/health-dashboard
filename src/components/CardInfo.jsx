@@ -1,7 +1,10 @@
 import React from "react";
 import { Card, Icon } from "semantic-ui-react";
+import { useNavigate } from "react-router-dom";
 
-const CardInfo = ({ title, value, unit, icon }) => {
+const CardInfo = ({ title, value, unit, icon, link }) => {
+  const navigate = useNavigate();
+
   return (
     <Card
       raised
@@ -13,6 +16,7 @@ const CardInfo = ({ title, value, unit, icon }) => {
         marginTop: 0,
         marginBottom: 0
       }}
+      onClick={() => navigate(link)} // Naviga alla pagina corrispondente
     >
       <Card.Content
       style={{

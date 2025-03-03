@@ -27,10 +27,10 @@ const Dashboard = () => {
           maxWidth: "800px",
         }}
       >
-        <CardInfo title="Passi Giornalieri" value="10,345" unit="steps" icon="male" />
-        <CardInfo title="Frequenza Cardiaca" value="72" unit="bpm" icon="heartbeat" />
-        <CardInfo title="Ore di Sonno" value="7.5" unit="h" icon="bed" />
-        <CardInfo title="Temperatura del Polso" value="36.5" unit="°C" icon="thermometer half" />
+        <CardInfo title="Passi Giornalieri" value="10,345" unit="steps" icon="male" link="/steps"/>
+        <CardInfo title="Frequenza Cardiaca" value="72" unit="bpm" icon="heartbeat" link="/heart-rate"/>
+        <CardInfo title="Ore di Sonno" value="7.5" unit="h" icon="bed" link="/sleep"/>
+        <CardInfo title="Temperatura del Polso" value="36.5" unit="°C" icon="thermometer half" link="/temperature"/>
       </Container>
     </div>
   );
