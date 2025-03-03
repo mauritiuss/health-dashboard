@@ -17,6 +17,31 @@ const StepsPage = () => {
     loadData();
   }, []);
 
+  const daysBelowTarget = stepsData.filter(entry => entry.steps < 8000).length; //Tengo traccia dei giorni con meno di 8000 passi
+
+  const getSuggestionMessage = (daysBelow) => {
+    switch (daysBelow) {
+      case 0:
+        return "Ottimo lavoro! Hai raggiunto il tuo obiettivo di passi ogni giorno della settimana. Continua così!";
+      case 1:
+        return "Hai avuto solo un giorno in cui non hai raggiunto l'obiettivo. È comunque un ottimo risultato! Cerca di mantenere questa costanza. Prova ad aggiungere una breve passeggiata serale.";
+      case 2:
+        return "Hai avuto due giorni in cui non hai raggiunto l'obiettivo. Va bene, ma potresti cercare di migliorare un po' la tua routine. Considera di fare una camminata durante la pausa pranzo.";
+      case 3:
+        return "Tre giorni in cui non hai raggiunto l'obiettivo. Forse è il momento di pianificare delle passeggiate più regolari. Potresti provare a usare le scale invece dell'ascensore.";
+      case 4:
+        return "Quattro giorni in cui non hai raggiunto l'obiettivo. Prova a fare piccoli cambiamenti, come fare una passeggiata dopo i pasti o parcheggiare più lontano dalla tua destinazione.";
+      case 5:
+        return "Cinque giorni in cui non hai raggiunto l'obiettivo. È importante dare più attenzione alla tua attività fisica quotidiana. Imposta un promemoria per alzarti e camminare ogni ora.";
+      case 6:
+        return "Sei giorni in cui non hai raggiunto l'obiettivo. Cerca di trovare motivazioni nuove, magari coinvolgendo un amico per camminare insieme o ascoltando podcast durante le passeggiate.";
+      case 7:
+        return "Non hai raggiunto l'obiettivo per tutta la settimana. È un buon momento per ripensare alla tua routine e trovare il modo di essere più attivo. Prova a pianificare delle camminate mattutine o serali.";
+      default:
+        return "Dati non disponibili. Assicurati che il file CSV sia corretto.";
+    }
+  };
+
   return (
     <>
       <div
@@ -44,9 +69,13 @@ const StepsPage = () => {
           }}
         >
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">Tabella dei passi giornalieri</Header>
-            <p>Di seguito viene riportata una tabella contenente i passi che hai effettuato durante la tua ultima settimana.</p>
-            <p>In rosso sono presenti i giorni in cui non hai camminato per almeno 8000 passi.</p>
+            <Header as="h2">🗂️ Tabella dei passi giornalieri 🗂️</Header>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
+            La tabella riportata mostra i giorni della settimana e il numero di passi effettuati quotidianamente. 
+            Ogni riga della tabella rappresenta un giorno specifico, mentre la colonna accanto indica il conteggio dei passi registrati.
+            Eventuali caselle che contengono un numero di passi inferiore a 8000 sono evidenziate in rosso. 
+            Questo accorgimento permette di individuare rapidamente i giorni in cui l'obiettivo giornaliero di attività fisica non è stato raggiunto, offrendo un'immediata visualizzazione delle giornate meno attive.
+            </Header>
 
             <Table celled striped textAlign="center">
               <Table.Header>
@@ -76,8 +105,31 @@ const StepsPage = () => {
           </Segment>
 
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">Grafico dei passi</Header>
+            <Header as="h2">📈 Grafico dei passi 📈</Header>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
+            Il grafico sottostante fornisce una rappresentazione visiva dell'andamento dei passi giornalieri.
+            La linea viola rappresenta i passi effettivamente compiuti dall'utente, mentre la linea rossa indica l'obiettivo di passi da raggiungere ogni giorno. 
+            Questo confronto visivo permette di valutare facilmente i giorni in cui non sono stati raggiunti i passi giornalieri.
+            </Header>
             <StepsChart data={stepsData} />
+          </Segment>
+
+          <Segment style={{ padding: "40px", margin: "0 20px" }}>
+            <Header as="h2">🧐 Spiegazione 🧐</Header>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
+            Camminare regolarmente è fondamentale per mantenere una buona salute generale. 
+            Studi recenti hanno evidenziato che raggiungere un obiettivo di 8.000 passi al giorno può apportare numerosi benefici, tra cui:
+            <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
+              <li>Riduzione del rischio di mortalità: uno studio ha dimostrato che le persone che compiono circa 8.000 passi al giorno presentano un rischio di mortalità inferiore del 51% rispetto a chi ne compie solo 4.000.</li>
+              <li>Benefici cardiovascolari: camminare regolarmente contribuisce a migliorare la salute del cuore, riducendo il rischio di malattie cardiovascolari.</li>
+              <li>Miglioramento del benessere generale: l’attività fisica moderata, come la camminata, favorisce il controllo del peso corporeo, migliora l’umore e aumenta i livelli di energia.</li>
+            </ul>
+            È importante sottolineare che, sebbene l’obiettivo tradizionale sia spesso stato fissato a 10.000 passi giornalieri, recenti ricerche indicano che già con 8.000 passi si possono ottenere significativi benefici per la salute.
+            </Header>
+            <Header as="h2">💡 Suggerimenti 💡</Header>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'center' }}>
+              {getSuggestionMessage(daysBelowTarget)}
+            </Header>
           </Segment>
         </Container>
       </div>
