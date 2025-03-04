@@ -192,33 +192,28 @@ Il flusso di produzione adottato ha consentito di ottenere risultati significati
 5. **Flessibilità e adattabilità a nuovi scenari d’uso**: Il flusso adottato è altamente scalabile e riutilizzabile. Le tecnologie impiegate sono standard del settore, facilmente aggiornabili e adattabili a nuove esigenze editoriali. Questo approccio consente di creare rapidamente nuove WebApp o prodotti digitali, mantenendo coerenza e qualità.
 6. **Accessibilità e ampia diffusione**: Grazie alla natura web-based del prodotto, il contenuto è facilmente accessibile da qualsiasi dispositivo connesso a Internet. L’utilizzo di componenti responsive garantisce una fruizione ottimale anche su dispositivi mobili, ampliando il potenziale bacino di utenti.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
- 
 ### Confronto con lo stato dell'arte
 
-Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
+Le tecnologie adottate in questo progetto sono state scelte per garantire un flusso di lavoro efficace, scalabile e facilmente aggiornabile. L’uso di **React** per la creazione della WebApp, insieme a **GitHub** per il versionamento, ha permesso una gestione collaborativa strutturata, assicurando il controllo delle modifiche e la tracciabilità del codice.
+
+Rispetto a metodi più tradizionali, come la produzione di documenti statici (es. **PDF**), questa soluzione offre vantaggi significativi: ogni aggiornamento dei contenuti richiede semplicemente un commit e un push su GitHub, rendendo disponibili le modifiche in tempo reale, senza necessità di ridistribuire manualmente il prodotto.
+
+Inoltre, la combinazione tra intelligenza artificiale (**GPT-4**) per l’acquisizione dei contenuti e la revisione da parte di **esperti medici** ha garantito una produzione rapida, precisa e scientificamente validata. Questo approccio innovativo ha reso possibile la creazione di contenuti aggiornati, affidabili e facilmente accessibili tramite una WebApp responsive, utilizzabile da qualsiasi dispositivo connesso a Internet.
 
 ### Limiti emersi
+Nonostante l’efficacia del flusso di lavoro e delle tecnologie adottate, sono emersi alcuni limiti legati soprattutto alla gestione e alla personalizzazione del prodotto finale.
 
-È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti
+L’uso di una **WebApp basata su React** richiede una connessione Internet costante per accedere ai contenuti, il che può rappresentare un limite in contesti con scarsa connettività. Tuttavia, considerando che la maggior parte delle piattaforme digitali moderne richiedono comunque una connessione di rete, questo aspetto risulta marginale.
+
+Un’altra criticità riguarda la personalizzazione grafica: pur avendo utilizzato librerie come **Semantic UI** e **Recharts** per garantire una UI chiara e grafici interattivi, le possibilità di design rimangono comunque vincolate alle opzioni offerte da queste librerie.
+
+Infine, l’affidamento all’intelligenza artificiale (**GPT-4**) per l’acquisizione dei contenuti, sebbene efficace, ha richiesto una **revisione approfondita da parte di esperti medici** per garantire la correttezza e l’affidabilità delle informazioni. Questo passaggio ha introdotto tempistiche aggiuntive, inevitabili però per assicurare la qualità del prodotto finale.
+ 
+
+
+
+
+
 
 ## Conclusioni
 
