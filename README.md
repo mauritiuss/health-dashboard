@@ -12,7 +12,7 @@
 
 ## Setup del progetto
 Per eseguire il progetto in locale, segui questi passaggi:
-``
+```bash
 # Clona il repository
 git clone https://github.com/mauritiuss/health-dashboard.git
 cd health-dashboard
@@ -32,5 +32,5 @@ npm install react-markdown
 
 # Avvia il progetto
 npm run dev
-``
-Assicurati di avere Node.js installato per eseguire i comandi ``npm``.
+```
+Assicurati di avere Node.js installato per eseguire i comandi ```npm```.
