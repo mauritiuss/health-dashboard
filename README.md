@@ -29,6 +29,7 @@ npm install papaparse
 npm install react-router-dom
 npm install recharts
 npm install react-markdown
+npm install react-helmet-async
 
 # Avvia il progetto
 npm run dev
