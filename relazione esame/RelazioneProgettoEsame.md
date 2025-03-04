@@ -96,26 +96,39 @@ L’obiettivo è bilanciare innovazione e familiarità:
 
 ## Processo di Produzione
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Processo di Produzione
-
 ### Acquisizione dei contenuti
-Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: (i) disponibili come fonti libere, (ii) generabili automaticamente, (iii) richiedono un lavoro di redazione manuale.
+
+L'acquisizione dei contenuti è avvenuta attraverso un approccio misto.
+
+La fase iniziale di generazione del testo e ricerca delle fonti è stata svolta tramite l’intelligenza artificiale, utilizzando **ChatGPT basato sul modello GPT-4**. Questo modello avanzato, sviluppato da OpenAI, è stato scelto per la sua capacità di produrre testi coerenti, pertinenti e ben strutturati.
+
+Successivamente, il contenuto è stato sottoposto a una revisione manuale da parte di esperti medici, con l’obiettivo di garantire un’elevata qualità, integrare eventuali informazioni mancanti e verificare l’accuratezza delle fonti utilizzate.
+
+Quando le fonti originali si sono rivelate insufficienti o poco precise, sono state selezionate ulteriori risorse affidabili per completare il processo di acquisizione dei contenuti in modo rigoroso e attendibile.
+
+Spiegazione del modello adottato:
+- **GPT-4**: Si tratta di un modello di linguaggio di ultima generazione sviluppato da OpenAI, noto per la sua capacità di comprendere il contesto e produrre risposte dettagliate e accurate. È stato scelto per la sua particolare efficacia nella generazione di testi complessi, supportando attività come la scrittura creativa, la revisione e l’elaborazione di contenuti tecnici. Questa tecnologia si è rivelata fondamentale nella fase iniziale di raccolta e strutturazione delle informazioni.
+
+L’approccio combinato tra l’utilizzo dell’intelligenza artificiale per il reperimento delle fonti e la revisione da parte di medici esperti ha permesso di offrire agli utenti informazioni accurate, complete e di alto valore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Gestione documentale
 
