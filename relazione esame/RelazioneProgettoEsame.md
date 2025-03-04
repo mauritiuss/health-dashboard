@@ -30,12 +30,35 @@ Per l’acquisizione dei contenuti sono state utilizzate intelligenze artificial
 ## Ideazione
 
 ### Tema
-Identificare i temi che il prodotto editoriale dovrà presentare. Evidenziare le domande frequenti, i bisogni insoddisfatti, gli argomenti correlati e la tendenza dell'attenzione su questi temi. 
+Il tema richiesto dall’azienda riguarda il monitoraggio della salute degli utenti.
 
-![UNIMI](https://www.erasmusmilan.com/wp-content/uploads/2016/02/Statale-e1478865636847.jpg)
+Tenere sotto controllo parametri come il numero di passi giornalieri, la frequenza cardiaca, le ore di sonno e la temperatura corporea è fondamentale per mantenere uno stile di vita sano. Tuttavia, questi dati sono spesso difficili da leggere e interpretare. Per questo motivo, la WebApp è stata progettata per presentare le informazioni in modo chiaro e accessibile, attraverso grafici intuitivi e spiegazioni dettagliate dei dati raccolti.
 
 ### Destinatari
 Descrivere i destinatari del prodotto editoriale utilizzando la tecnica delle personas. Descrivere alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Modello di fruizione
