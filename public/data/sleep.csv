@@ -1,8 +1,8 @@
-day,sleep_hours
-Lunedì,7
-Martedì,6.5
-Mercoledì,8
-Giovedì,7.2
-Venerdì,6.8
-Sabato,8.5
-Domenica,7.5
+day,sleep_hours,light_sleep,deep_sleep,rem_sleep
+Lunedì,7,4,2,1
+Martedì,6.5,3.5,2,1
+Mercoledì,8,4.5,2.5,1
+Giovedì,7.2,4,2,1.2
+Venerdì,6.8,3.8,2,1
+Sabato,8.5,5,2.5,1
+Domenica,7.5,4.5,2,1
