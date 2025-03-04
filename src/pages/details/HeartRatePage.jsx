@@ -125,9 +125,9 @@ const StepsPage = () => {
                     Studi recenti hanno evidenziato che una frequenza cardiaca a riposo compresa tra 60 e 100 battiti al minuto (bpm) è considerata normale, ma mantenersi tra 50 e 70 bpm può offrire ulteriori benefici per la salute.<br />
                     <Header as="h3">✅ Vantaggi associati a una frequenza cardiaca ottimale: </Header>
                     <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-                      <li><b>Riduzione del rischio cardiovascolare</b>: diversi studi hanno dimostrato che una frequenza cardiaca a riposo inferiore a 75-80 bpm è associata a un minor rischio di infarto, ictus e altre patologie cardiache.</li>
-                      <li><b>Migliore efficienza del cuore</b>: una frequenza cardiaca più bassa indica un cuore che lavora in modo più efficiente, riducendo lo sforzo necessario per pompare il sangue. Questo è spesso riscontrato negli atleti e nelle persone fisicamente attive</li>
-                      <li><b>Aumento della longevità</b>: studi suggeriscono che chi mantiene una frequenza cardiaca più bassa a riposo ha spesso una maggiore aspettativa di vita e una migliore qualità della salute.</li>
+                      <li><b>Riduzione del rischio cardiovascolare</b>: diversi studi hanno dimostrato che una frequenza cardiaca a riposo inferiore a 75-80 bpm è associata a un minor rischio di infarto, ictus e altre patologie cardiache. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Healthy The Wom, 2023]</a></li>
+                      <li><b>Migliore efficienza del cuore</b>: una frequenza cardiaca più bassa indica un cuore che lavora in modo più efficiente, riducendo lo sforzo necessario per pompare il sangue. Questo è spesso riscontrato negli atleti e nelle persone fisicamente attive. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Humana Vox, 2023]</a></li>
+                      <li><b>Aumento della longevità</b>: studi suggeriscono che chi mantiene una frequenza cardiaca più bassa a riposo ha spesso una maggiore aspettativa di vita e una migliore qualità della salute. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Livello Salute, 2023]</a></li>
                     </ul>
                     Sebbene una frequenza compresa tra 60 e 100 bpm sia considerata nella norma, puntare a valori tra 50 e 70 bpm può offrire ulteriori vantaggi. È sempre consigliabile monitorare la propria frequenza cardiaca e consultare un medico in caso di valori costantemente troppo alti o troppo bassi.
                     </Header>

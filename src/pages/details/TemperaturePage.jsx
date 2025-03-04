@@ -98,11 +98,15 @@ const StepsPage = () => {
             La termoregolazione, ovvero la capacità del corpo di mantenere la temperatura interna entro un intervallo fisiologico, coinvolge diversi sistemi corporei e meccanismi di controllo. <br />
             <Header as="h3">✅ Benefici associati a una corretta termoregolazione: </Header>
             <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-              <li><b>Funzioni enzimatiche ottimali</b>: li enzimi, fondamentali per le reazioni biochimiche nel corpo, operano in modo efficiente a temperature specifiche. Una temperatura corporea stabile garantisce l'efficacia di processi come la digestione e la sintesi proteica</li>
-              <li><b>Salute del sistema nervosoe</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus.</li>
-              <li><b>Efficienza metabolica</b>: il metabolismo energetico dipende dalla temperatura corporea. Fluttuazioni termiche possono alterare la produzione e l'utilizzo dell'energia, influenzando il peso corporeo e i livelli di energia.</li>
-              <li><b>Risposta immunitaria efficace</b>: una temperatura corporea stabile supporta la capacità del sistema immunitario di combattere infezioni e malattie.</li>
-              <li><b>Benessere generale</b>: maantenere una temperatura corporea equilibrata contribuisce al comfort fisico e al benessere psicologico, riducendo lo stress termico e migliorando la qualità della vita.</li>
+              <li>
+                <b>Funzioni enzimatiche ottimali</b>: gli enzimi, fondamentali per le reazioni biochimiche nel corpo, operano in modo efficiente a temperature specifiche. Una temperatura corporea stabile garantisce l'efficacia di processi come la digestione e la sintesi proteica. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Nurse24 - Elvira La Montagna, 2022]</a>
+              </li>
+              <li>
+                <b>Salute del sistema nervosoe</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Salus, 2024]</a>
+              </li>
+              <li><b>Efficienza metabolica</b>: il metabolismo energetico dipende dalla temperatura corporea. Fluttuazioni termiche possono alterare la produzione e l'utilizzo dell'energia, influenzando il peso corporeo e i livelli di energia. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Salus, 2024]</a></li>
+              <li><b>Risposta immunitaria efficace</b>: una temperatura corporea stabile supporta la capacità del sistema immunitario di combattere infezioni e malattie. <a href="/documentation" style={{ fontSize: '0.8em' }}>[BiologiaWiki - Crisafulli, 2024]</a></li>
+              <li><b>Benessere generale</b>: mantenere una temperatura corporea equilibrata contribuisce al comfort fisico e al benessere psicologico, riducendo lo stress termico e migliorando la qualità della vita. <a href="/documentation" style={{ fontSize: '0.8em' }}>[BiologiaWiki - Crisafulli, 2024]</a></li>
             </ul>
             È importante notare che la temperatura corporea può variare leggermente tra gli individui e nel corso della giornata. Tuttavia, deviazioni significative dalla norma possono indicare condizioni patologiche e richiedono attenzione medica.
             </Header>

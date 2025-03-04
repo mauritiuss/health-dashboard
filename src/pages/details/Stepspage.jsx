@@ -121,9 +121,9 @@ const StepsPage = () => {
             Studi recenti hanno evidenziato che raggiungere un obiettivo di 8.000 passi al giorno può apportare numerosi benefici.<br />
                         <Header as="h3">✅ Benefici associati al raggiungimento di 8.000 passi al giorno: </Header>
             <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-              <li><b>Riduzione del rischio di mortalità</b>: uno studio ha dimostrato che le persone che compiono circa 8.000 passi al giorno presentano un rischio di mortalità inferiore del 51% rispetto a chi ne compie solo 4.000.</li>
-              <li><b>Benefici cardiovascolari</b>: camminare regolarmente contribuisce a migliorare la salute del cuore, riducendo il rischio di malattie cardiovascolari.</li>
-              <li><b>Miglioramento del benessere generale</b> l’attività fisica moderata, come la camminata, favorisce il controllo del peso corporeo, migliora l’umore e aumenta i livelli di energia.</li>
+              <li><b>Riduzione del rischio di mortalità</b>: uno studio ha dimostrato che le persone che compiono circa 8.000 passi al giorno presentano un rischio di mortalità inferiore del 51% rispetto a chi ne compie solo 4.000. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Corriere della Sera, Salute, 2023]</a></li>
+              <li><b>Benefici cardiovascolari</b>: camminare regolarmente contribuisce a migliorare la salute del cuore, riducendo il rischio di malattie cardiovascolari. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Kosuke Inoue, Amanda E. Paluch, 2023]</a></li>
+              <li><b>Miglioramento del benessere generale</b> l’attività fisica moderata, come la camminata, favorisce il controllo del peso corporeo, migliora l’umore e aumenta i livelli di energia. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Kosuke Inoue, Amanda E. Paluch, 2023]</a></li>
             </ul>
             È importante sottolineare che, sebbene l’obiettivo tradizionale sia spesso stato fissato a 10.000 passi giornalieri, recenti ricerche indicano che già con 8.000 passi si possono ottenere significativi benefici per la salute.
             </Header>

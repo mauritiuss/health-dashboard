@@ -128,11 +128,11 @@ const StepsPage = () => {
             Rispettare un ciclo di sonno regolare aiuta a stabilizzare l'orologio biologico, migliorando la qualità della vita quotidiana e le performance in diverse attività.<br />
             <Header as="h3">✅ Benefici associati a un sonno adeguato: </Header>
             <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-              <li><b>Miglioramento delle funzioni cognitive</b>: durante il sonno, il cervello elabora le informazioni acquisite durante il giorno, consolidando la memoria e migliorando le capacità di apprendimento</li>
-              <li><b>Salute cardiovascolare</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus.</li>
-              <li><b>Rafforzamento del sistema immunitario</b>: dormire a sufficienza aiuta a rafforzare le difese immunitarie, rendendo l’organismo più resistente alle infezioni.</li>
-              <li><b>Regolazione del metabolismo</b>: il sonno influisce sulla produzione di ormoni che controllano l’appetito e il metabolismo, contribuendo alla prevenzione di obesità e diabete.</li>
-              <li><b>Benessere mentale</b>: un sonno di qualità migliora l’umore, riduce lo stress e favorisce l’equilibrio emotivo.</li>
+              <li><b>Miglioramento delle funzioni cognitive</b>: durante il sonno, il cervello elabora le informazioni acquisite durante il giorno, consolidando la memoria e migliorando le capacità di apprendimento. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Microbiologia Italia, 2024]</a></li>
+              <li><b>Salute cardiovascolare</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Microbiologia Italia, 2024]</a></li>
+              <li><b>Rafforzamento del sistema immunitario</b>: dormire a sufficienza aiuta a rafforzare le difese immunitarie, rendendo l’organismo più resistente alle infezioni. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Interlab Analisi, 2024]</a></li>
+              <li><b>Regolazione del metabolismo</b>: il sonno influisce sulla produzione di ormoni che controllano l’appetito e il metabolismo, contribuendo alla prevenzione di obesità e diabete. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Rete HPH Italia, 2024]</a></li>
+              <li><b>Benessere mentale</b>: un sonno di qualità migliora l’umore, riduce lo stress e favorisce l’equilibrio emotivo. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Guida Psicologi, 2024]</a></li>
             </ul>
             È importante sottolineare che la quantità di sonno necessaria può variare da persona a persona; tuttavia, gli esperti raccomandano generalmente tra le 7 e le 9 ore di sonno per notte per garantire un benessere ottimale.
             </Header>
