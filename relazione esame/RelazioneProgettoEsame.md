@@ -35,7 +35,41 @@ Il tema richiesto dall’azienda riguarda il monitoraggio della salute degli ute
 Tenere sotto controllo parametri come il numero di passi giornalieri, la frequenza cardiaca, le ore di sonno e la temperatura corporea è fondamentale per mantenere uno stile di vita sano. Tuttavia, questi dati sono spesso difficili da leggere e interpretare. Per questo motivo, la WebApp è stata progettata per presentare le informazioni in modo chiaro e accessibile, attraverso grafici intuitivi e spiegazioni dettagliate dei dati raccolti.
 
 ### Destinatari
-Descrivere i destinatari del prodotto editoriale utilizzando la tecnica delle personas. Descrivere alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.
+
+I seguenti destinatari sono stati creati adottando la tecnica delle personas:
+
+1. **Andrea, 24 anni, studente universitario**
+   - **Background**: Studia Ingegneria Informatica, appassionato di tecnologia e dispositivi smart. Fa sport occasionalmente e usa uno smartwatch per monitorare la sua attività fisica.
+   - **Obiettivi**: Tenere sotto controllo i suoi parametri vitali e migliorare il proprio stile di vita.
+   - **Bisogni**: Dati chiari e facili da consultare, con grafici intuitivi e informazioni dettagliate sui parametri rilevati.
+   - **Scenario d'uso**: Accede alla WebApp per controllare i passi giornalieri. Consulta le spiegazioni dei dati per capire come migliorare la sua performance fisica.
+
+2. **Marta, 30 anni, giovane professionista**
+   - **Background**: Lavora in smart working come project manager, ha una vita sedentaria e vuole prendersi più cura della propria salute. Ha un fitness tracker per monitorare i suoi parametri.
+   - **Obiettivi**: Mantenere uno stile di vita sano nonostante le molte ore passate davanti al computer.
+   - **Bisogni**: Un’interfaccia semplice e accessibile per monitorare i dati e controllare le proprie abitudini.
+   - **Scenario d'uso**: Consulta la WebApp ogni settimana per verificare i passi fatti, le ore di sonno e la frequenza cardiaca, cercando di migliorare la propria routine.
+
+3. **Luigi, 45 anni, impiegato d’ufficio**
+   - **Background**: Lavora a tempo pieno in un’azienda, passa molte ore seduto e ha iniziato a monitorare la sua salute per prevenire problemi cardiovascolari.
+   - **Obiettivi**: Tenere sotto controllo i parametri vitali per evitare rischi per la salute.
+   - **Bisogni**: Dati facilmente interpretabili e spiegazioni chiare sui valori rilevati, magari con avvisi in caso di anomalie.
+   - **Scenario d'uso**: Accede alla WebApp per monitorare la frequenza cardiaca e la temperatura corporea, verificando se i parametri sono nella norma.
+
+4. **Sara, 27 anni, personal trainer**
+   - **Background**: Lavora nel settore fitness, usa dispositivi smart per monitorare la propria attività fisica.
+   - **Obiettivi**: Avere un quadro chiaro dei dati di attività fisica.
+   - **Bisogni**: Grafici dettagliati che aiutino a visualizzare progressi e criticità.
+   - **Scenario d'uso**: Accede alla WebApp per monitorare la frequenza cardiaca e la temperatura corporea, verificando se i parametri sono nella norma.
+
+5. **Francesco, 50 anni, paziente con patologie croniche**
+   - **Background**: Ha problemi di ipertensione e monitora la propria salute con uno smartwatch medico. È poco esperto di tecnologia.
+   - **Obiettivi**: Monitorare parametri come la frequenza cardiaca e la temperatura corporea, evitando situazioni di rischio.
+   - **Bisogni**: Interfaccia semplice e spiegazioni chiare sui dati, con indicazioni su quando è necessario consultare un medico.
+   - **Scenario d'uso**:  Utilizza la WebApp per controllare i parametri vitali e si sente rassicurato dalla possibilità di accedere facilmente ai suoi dati.
+
+
+
 
 
 
