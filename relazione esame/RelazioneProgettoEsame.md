@@ -119,12 +119,12 @@ Il flusso di gestione documentale si compone delle seguenti fasi:
 4. **Sviluppo della WebApp**: Creazione della WebApp utilizzando **React**. Questa tecnologia è stata scelta per la sua flessibilità, la capacità di creare interfacce dinamiche e l’ampio supporto della community di sviluppatori.
 5. **Gestione del versionamento**: Collegamento del repository del progetto a **GitHub**, in modo da gestire in modo efficiente il versionamento del codice e facilitare la collaborazione e il monitoraggio delle modifiche.
 6. **Implementazione delle librerie**: Installazione e utilizzo delle librerie necessarie tramite **npm**, per garantire una corretta scrittura del codice e un’interfaccia intuitiva e responsive. Le librerie adottate sono state:
-- **semantic-ui-react** e **semantic-ui-cs** per la progettazione dell’interfaccia grafica.
-- **Vite** per la creazione rapida del progetto React.
-- **papaparse** per la gestione e l’elaborazione dei file CSV.
-- **react-router-dom** per la navigazione tra le diverse pagine della WebApp.
-- **recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
-- **react-markdown** per il rendering della bibliografia in formato markdown.
+   - **semantic-ui-react** e **semantic-ui-cs** per la progettazione dell’interfaccia grafica.
+   - **Vite** per la creazione rapida del progetto React.
+   - **papaparse** per la gestione e l’elaborazione dei file CSV.
+   - **react-router-dom** per la navigazione tra le diverse pagine della WebApp.
+   - **recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
+   - **react-markdown** per il rendering della bibliografia in formato markdown.
 7. **Salvataggio e aggiornamento**: Ogni modifica e aggiornamento dei contenuti e del codice è stato salvato e versionato tramite GitHub, garantendo una gestione ordinata e tracciabile dello sviluppo del progetto.
 
 
