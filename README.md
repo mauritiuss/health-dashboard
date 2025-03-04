@@ -34,3 +34,17 @@ npm install react-markdown
 npm run dev
 ```
 Assicurati di avere Node.js installato per eseguire i comandi ```npm```.
+
+## Struttura del progetto
+```bash
+health-dashboard/
+|-- src/
+|   |-- components/       # Componenti riutilizzabili
+|   |-- pages/            # Pagine principali dell'app
+|   |-- data/             # File di dati (es. CSV)
+|   |-- App.jsx           # Componente principale
+|   |-- main.jsx          # Punto di ingresso
+|-- public/               # File statici
+|-- package.json         # Configurazione e dipendenze
+|-- vite.config.js       # Configurazione di Vite
+```
