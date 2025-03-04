@@ -125,6 +125,7 @@ Il flusso di gestione documentale si compone delle seguenti fasi:
    - **react-router-dom** per la navigazione tra le diverse pagine della WebApp.
    - **recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
    - **react-markdown** per il rendering della bibliografia in formato markdown.
+   - **react-helmet-async** per gestire in modo dinamico i metadati delle pagine, come titolo, descrizione e parole chiave.
 7. **Salvataggio e aggiornamento**: Ogni modifica e aggiornamento dei contenuti e del codice è stato salvato e versionato tramite GitHub, garantendo una gestione ordinata e tracciabile dello sviluppo del progetto.
 
 ```mermaid
@@ -148,12 +149,14 @@ graph TD
         I3[react-router-dom per la navigazione]
         I4[papaparse per la gestione dei dati CSV]
         I5[react-markdown per la visualizzazione dei testi]
+        I6[react-helmet-async per la gestione dei metadati]
     end
     H --> I1
     H --> I2
     H --> I3
     H --> I4
     H --> I5
+    H --> I6
 
     G --> J[Collegamento del repository su GitHub]
     J --> K[Versionamento del codice]
@@ -173,6 +176,7 @@ Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la q
 | **react-router-dom** | **Gestione della navigazione.**  È stato utilizzato per implementare un sistema di routing dinamico, permettendo la navigazione fluida tra le diverse sezioni della WebApp. |
 | **Papaparse** | **Gestione dei file CSV.** Questa libreria ha semplificato l’importazione e l’elaborazione dei dati provenienti da file CSV, rendendo efficiente la lettura e la trasformazione dei dati strutturati. |
 | **react-markdown** | **Visualizzazione di contenuti testuali.** È stata utilizzata per convertire il contenuto della bibliografia in formato Markdown, garantendo una resa leggibile direttamente nella WebApp. |
+| **react-helmet-async** | **Gestione dei metadati delle pagine.** Questa libreria è stata utilizzata per definire i metadati di ogni pagina della WebApp, come titolo, charset, viewport e descrizione. Sebbene la WebApp sia destinata agli utenti e non indicizzata dai motori di ricerca, questi metadati migliorano l’organizzazione interna, la chiarezza delle informazioni e l'ottimizzazione della visualizzazione su diversi dispositivi. |
 | **GPT-4** | **Acquisizione e generazione dei contenuti.** Il modello di intelligenza artificiale GPT-4 di OpenAI è stato impiegato per raccogliere informazioni e generare testi chiari, coerenti e pertinenti. |
 | **Revisione medica** | **Validazione dei contenuti.** Dopo la generazione automatica dei testi, i contenuti sono stati esaminati da esperti medici per garantirne la correttezza e l’affidabilità, completando il processo di acquisizione con eventuali integrazioni e correzioni. |
 
