@@ -127,6 +127,39 @@ Il flusso di gestione documentale si compone delle seguenti fasi:
    - **react-markdown** per il rendering della bibliografia in formato markdown.
 7. **Salvataggio e aggiornamento**: Ogni modifica e aggiornamento dei contenuti e del codice è stato salvato e versionato tramite GitHub, garantendo una gestione ordinata e tracciabile dello sviluppo del progetto.
 
+```mermaid
+graph TD
+    A[Inizio] --> B[Ideazione dei contenuti]
+    B --> C[Acquisizione dei contenuti con AI (GPT-4)]
+    C --> D[Revisione dei contenuti da parte dei medici]
+    
+    E{Contenuti approvati?}
+    E -->|Sì| F[Salvataggio e versionamento su GitHub]
+    E -->|No| C
+
+    F --> G[Sviluppo WebApp in React]
+    G --> H[Implementazione librerie (Semantic UI, Recharts, ecc.)]
+    H --> I[Collegamento repository su GitHub]
+
+    J{WebApp completa?}
+    J -->|Sì| K[Distribuzione della WebApp]
+    J -->|No| G
+
+    %% Sottofasi di "Implementazione librerie"
+    subgraph Librerie utilizzate
+        direction TB
+        H1[semantic-ui-react & semantic-ui-css]
+        H2[recharts]
+        H3[react-router-dom]
+        H4[papaparse]
+        H5[react-markdown]
+    end
+    H --> H1
+    H --> H2
+    H --> H3
+    H --> H4
+    H --> H5
+```
 
 
 
@@ -144,9 +177,6 @@ Il flusso di gestione documentale si compone delle seguenti fasi:
 
 
 
-### Gestione documentale
-
-Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le  fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
 
 ```mermaid
 graph LR
