@@ -160,7 +160,21 @@ graph TD
     K --> L[Fine]
 ```
 ### Tecnologie adottate
+Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la qualità delle diverse fasi del progetto.
+Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la qualità delle diverse fasi del progetto, offrendo strumenti adeguati sia per la creazione dei contenuti che per la loro gestione e distribuzione. Ecco una panoramica delle tecnologie principali e del loro contributo:
 
+| Tecnologia  | Contributo principale |
+|-------------|------------------------|
+| **React** | **Sviluppo della WebApp.** React è stato scelto per la sua efficienza nella creazione di interfacce dinamiche e responsive. Grazie alla sua architettura basata su componenti, ha permesso di costruire un’app modulare e facilmente manutenibile. |
+| **GitHub**    | **Gestione del repository e del versioning.** GitHub è stato utilizzato per il controllo della versione del progetto, consentendo una gestione efficace del codice e la collaborazione tramite commit, pull request e issue tracking. |
+| **semantic-ui-react**  | **Realizzazione dell’interfaccia grafica.** Questa libreria è stata impiegata per creare componenti UI moderni e responsive, garantendo coerenza stilistica e facilità d’uso. |
+| **semantic-ui-css** | **Stile visivo della WebApp** Insieme a semantic-ui-react, questa libreria ha fornito un set di regole CSS predefinite per ottenere un design pulito e professionale senza necessità di personalizzazioni estese.. |
+| **Recharts**   | **Creazione di grafici interattivi.** Questa libreria è stata utilizzata per visualizzare dati in modo chiaro e intuitivo, offrendo grafici personalizzabili e reattivi. |
+| **react-router-dom** | **Gestione della navigazione.**  È stato utilizzato per implementare un sistema di routing dinamico, permettendo la navigazione fluida tra le diverse sezioni della WebApp. |
+| **Papaparse** | **Gestione dei file CSV.** Questa libreria ha semplificato l’importazione e l’elaborazione dei dati provenienti da file CSV, rendendo efficiente la lettura e la trasformazione dei dati strutturati. |
+| **react-markdown** | **Visualizzazione di contenuti testuali.** È stata utilizzata per convertire il contenuto della bibliografia in formato Markdown, garantendo una resa leggibile direttamente nella WebApp. |
+| **GPT-4** | **Acquisizione e generazione dei contenuti.** Il modello di intelligenza artificiale GPT-4 di OpenAI è stato impiegato per raccogliere informazioni e generare testi chiari, coerenti e pertinenti. |
+| **Revisione medica** | **Validazione dei contenuti.** Dopo la generazione automatica dei testi, i contenuti sono stati esaminati da esperti medici per garantirne la correttezza e l’affidabilità, completando il processo di acquisizione con eventuali integrazioni e correzioni. |
 
 
 
