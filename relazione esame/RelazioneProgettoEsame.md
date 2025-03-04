@@ -134,13 +134,12 @@ graph TD
     C --> D[Revisione dei contenuti da parte dei medici]
 
     E{Contenuti approvati?}
-    E -->|Sì| F[Approvazione dei contenuti]
+    D --> E
+    E -->|Sì| F[Salvataggio dei contenuti e versionamento su GitHub]
     E -->|No| C[Raccolta e revisione aggiuntiva]
 
-    F --> G[Salvataggio dei contenuti e versionamento su GitHub]
-
-    G --> H[Sviluppo della WebApp in React]
-    H --> I[Installazione librerie tramite npm]
+    F --> G[Sviluppo della WebApp in React]
+    G --> H[Installazione librerie tramite npm]
 
     subgraph Librerie utilizzate
         direction TB
@@ -150,17 +149,18 @@ graph TD
         I4[papaparse per la gestione dei dati CSV]
         I5[react-markdown per la visualizzazione dei testi]
     end
-    I --> I1
-    I --> I2
-    I --> I3
-    I --> I4
-    I --> I5
+    H --> I1
+    H --> I2
+    H --> I3
+    H --> I4
+    H --> I5
 
-    H --> J[Collegamento del repository su GitHub]
+    G --> J[Collegamento del repository su GitHub]
     J --> K[Versionamento del codice]
     K --> L[Distribuzione della WebApp]
     L --> M[Fine]
 ```
+### Tecnologie adottate
 
 
 
@@ -179,20 +179,7 @@ graph TD
 
 
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-```mermaid
-flowchart LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
+
 
 ### Tecnologie adottate
 
