@@ -111,7 +111,21 @@ Spiegazione del modello adottato:
 
 L’approccio combinato tra l’utilizzo dell’intelligenza artificiale per il reperimento delle fonti e la revisione da parte di medici esperti ha permesso di offrire agli utenti informazioni accurate, complete e di alto valore.
 
-
+### Gestione documentale
+Il flusso di gestione documentale si compone delle seguenti fasi:
+1. **Ideazione**: dentificazione dei contenuti più comuni e significativi in base alle esigenze emerse dalle *personas* definite. Questa fase ha permesso di stabilire quali dati e informazioni sarebbero stati più utili e rilevanti per gli utenti finali.
+2. **Acquisizione dei contenuti**: Raccolta delle informazioni tramite intelligenza artificiale, utilizzando **ChatGPT basato sul modello GPT-4**. L’AI è stata impiegata per reperire studi scientifici e dati utili riguardanti i parametri di monitoraggio della salute, come passi giornalieri, frequenza cardiaca, ore di sonno e temperatura corporea.
+3. **Revisione dei contenuti**: Le informazioni raccolte tramite l’AI sono state sottoposte a una revisione manuale da parte di medici esperti. Questo passaggio ha garantito l’accuratezza, la coerenza e l’affidabilità dei dati, integrando o correggendo eventuali inesattezze fornite dall’intelligenza artificiale.
+4. **Sviluppo della WebApp**: Creazione della WebApp utilizzando **React**. Questa tecnologia è stata scelta per la sua flessibilità, la capacità di creare interfacce dinamiche e l’ampio supporto della community di sviluppatori.
+5. **Gestione del versionamento**: Collegamento del repository del progetto a **GitHub**, in modo da gestire in modo efficiente il versionamento del codice e facilitare la collaborazione e il monitoraggio delle modifiche.
+6. **Implementazione delle librerie**: Installazione e utilizzo delle librerie necessarie tramite **npm**, per garantire una corretta scrittura del codice e un’interfaccia intuitiva e responsive. Le librerie adottate sono state:
+- **semantic-ui-react** e **semantic-ui-cs** per la progettazione dell’interfaccia grafica.
+- **Vite** per la creazione rapida del progetto React.
+- **papaparse** per la gestione e l’elaborazione dei file CSV.
+- **react-router-dom** per la navigazione tra le diverse pagine della WebApp.
+- **recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
+- **react-markdown** per il rendering della bibliografia in formato markdown.
+7. **Salvataggio e aggiornamento**: Ogni modifica e aggiornamento dei contenuti e del codice è stato salvato e versionato tramite GitHub, garantendo una gestione ordinata e tracciabile dello sviluppo del progetto.
 
 
 
