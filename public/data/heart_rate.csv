@@ -1,9 +1,9 @@
 day,heart_rate,min_heart_rate,max_heart_rate
-Lun,75,70,80
+Lun,67,55,80
 Mar,80,75,85
-Mer,78,72,82
+Mer,93,72,115
 Gio,85,80,90
 Ven,77,73,81
-Sab,101,78,86
+Sab,89,78,101
 Dom,79,74,83
 

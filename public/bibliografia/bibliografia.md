@@ -12,9 +12,9 @@ tags:
 links:
   - "https://www.corriere.it/salute/cardiologia/23_novembre_07/numero-passi-giornalieri-ideale-c0b4e77c-7c96-11ee-90f0-2d45ce928adc.shtml"
   - "https://www.sciencedirect.com/science/article/pii/S0735109723064008"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
+  - "https://healthy.thewom.it/esami-e-analisi/frequenza-cardiaca/"
+  - "https://www.humanavox.it/battito-cardiaco/"
+  - "https://www.livellosalute.it/fitness/battiti-cardiaci-quanti-devono-essere-per-stare-bene/"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
@@ -36,14 +36,14 @@ Ecco tutte le fonti utilizzate per creare questo report, così puoi approfondire
 2. **Kosuke Inoue, Amanda E. Paluch, 2023**: "Daily Step Counts and Mortality and Cardiovascular Events: A Meta-Analysis"  
    [leggi di più](https://www.sciencedirect.com/science/article/pii/S0735109723064008)
 
-3. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+3. **Healthy The Wom, 2023**: "Frequenza cardiaca: cosa è normale e cosa no"  
+   [leggi di più](https://healthy.thewom.it/esami-e-analisi/frequenza-cardiaca/)
 
-4. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+4. **Humana Vox, 2023**: "Battito cardiaco: valori normali e quando preoccuparsi"  
+   [leggi di più](https://www.humanavox.it/battito-cardiaco/)
 
-5. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+5. **Livello Salute, 2023**: "Quanti battiti cardiaci sono normali per stare bene"  
+   [leggi di più](https://www.livellosalute.it/fitness/battiti-cardiaci-quanti-devono-essere-per-stare-bene/)
 
 6. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
    [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)

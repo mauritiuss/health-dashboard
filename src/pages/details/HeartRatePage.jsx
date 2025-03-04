@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Container, Header, Segment, Table } from "semantic-ui-react";
+import { Container, Header, Segment, Table, Message } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
 import StepsChart from "../../components/HeartRateChart"; //Import per il grafico
@@ -43,6 +43,16 @@ const StepsPage = () => {
             gap: "20px",
           }}
         >
+
+        <Message warning style={{ textAlign: "justify", padding: "20px", margin: "0 20px" }}>
+            <Message.Header>⚠️ Disclaimer ⚠️</Message.Header>
+            <p>
+            Ogni individuo è unico e la frequenza cardiaca può variare in base a numerosi fattori, come l'età, lo stile di vita, il livello di attività fisica, lo stato emotivo e la presenza di eventuali condizioni mediche. 
+            I dati riportati sono puramente informativi e non sostituiscono il parere di un professionista sanitario. 
+            Per una corretta interpretazione della propria frequenza cardiaca e una valutazione personalizzata, è fondamentale consultare un medico o uno specialista.
+            </p>
+        </Message>
+        
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
   <Header as="h2">🗂️ Tabella della frequenza cardiaca giornaliera 🗂️</Header>
   <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
@@ -95,7 +105,7 @@ const StepsPage = () => {
       ))}
     </Table.Body>
   </Table>
-</Segment>
+        </Segment>
 
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
             <Header as="h2">📈 Grafico della frequenza cardiaca 📈</Header>
@@ -106,7 +116,23 @@ const StepsPage = () => {
             Questo confronto visivo permette di monitorare con facilità la variabilità della frequenza cardiaca e individuare eventuali valori fuori dal range ideale.
             </Header>
             <StepsChart data={heartRateData} />
-          </Segment>
+        </Segment>
+
+        <Segment style={{ padding: "40px", margin: "0 20px" }}>
+                    <Header as="h2">🧐 Spiegazione 🧐</Header>
+                    <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
+                    Mantenere una frequenza cardiaca entro un range ottimale è essenziale per la salute cardiovascolare e il benessere generale. 
+                    Studi recenti hanno evidenziato che una frequenza cardiaca a riposo compresa tra 60 e 100 battiti al minuto (bpm) è considerata normale, ma mantenersi tra 50 e 70 bpm può offrire ulteriori benefici per la salute.
+                    Ecco alcuni dei vantaggi associati a una frequenza cardiaca ottimale:
+                    <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
+                      <li><b>Riduzione del rischio cardiovascolare</b>: diversi studi hanno dimostrato che una frequenza cardiaca a riposo inferiore a 75-80 bpm è associata a un minor rischio di infarto, ictus e altre patologie cardiache.</li>
+                      <li><b>Migliore efficienza del cuore</b>: una frequenza cardiaca più bassa indica un cuore che lavora in modo più efficiente, riducendo lo sforzo necessario per pompare il sangue. Questo è spesso riscontrato negli atleti e nelle persone fisicamente attive</li>
+                      <li><b>Aumento della longevità</b>: studi suggeriscono che chi mantiene una frequenza cardiaca più bassa a riposo ha spesso una maggiore aspettativa di vita e una migliore qualità della salute.</li>
+                    </ul>
+                    Sebbene una frequenza compresa tra 60 e 100 bpm sia considerata nella norma, puntare a valori tra 50 e 70 bpm può offrire ulteriori vantaggi. È sempre consigliabile monitorare la propria frequenza cardiaca e consultare un medico in caso di valori costantemente troppo alti o troppo bassi.
+                    </Header>
+        </Segment>
+
         </Container>
       </div>
     </>
