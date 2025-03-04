@@ -183,9 +183,14 @@ Tutti i materiali, script e configurazioni necessari per riprodurre il flusso di
 
 ### Valutazione del flusso di produzione
 
-Il flusso proposto ha permesso di ottenere i seguenti risultati: 
+Il flusso di produzione adottato ha consentito di ottenere risultati significativi in termini di efficienza, qualità e scalabilità:
 
-
+1. **Riduzione dei tempi di sviluppo e gestione**: L’integrazione di strumenti moderni come **React** per la creazione della WebApp e **GitHub** per la gestione del versionamento ha reso possibile una gestione snella e strutturata del progetto. L’utilizzo di librerie consolidate come **semantic-ui-react** e **Recharts** ha ridotto i tempi di sviluppo, offrendo componenti pronti all’uso e facilmente personalizzabili.
+2. **Minimizzazione degli errori**: La fase di acquisizione dei contenuti è stata supportata dall’intelligenza artificiale, con il modello **GPT-4**, che ha fornito testi chiari e coerenti basati su fonti affidabili. La revisione effettuata da **esperti medici** ha permesso di validare i contenuti, correggere eventuali imprecisioni e garantire la qualità scientifica delle informazioni fornite.
+3. **Miglioramento della qualità dei contenuti e della presentazione**: L’adozione di **semantic-ui-react** per la creazione dell’interfaccia grafica e di **Recharts** per la visualizzazione dei dati ha reso la WebApp non solo funzionale, ma anche esteticamente curata e user-friendly. Questo approccio ha contribuito a migliorare la leggibilità e l’interattività dei contenuti.
+4. **Gestione efficace del versionamento**: La scelta di **GitHub** come piattaforma di versionamento ha facilitato la tracciabilità completa delle modifiche e una gestione centralizzata del codice e dei contenuti. Le librerie installate tramite **npm** (come **react-router-dom** e **react-markdown**) hanno semplificato ulteriormente la struttura del progetto.
+5. **Flessibilità e adattabilità a nuovi scenari d’uso**: Il flusso adottato è altamente scalabile e riutilizzabile. Le tecnologie impiegate sono standard del settore, facilmente aggiornabili e adattabili a nuove esigenze editoriali. Questo approccio consente di creare rapidamente nuove WebApp o prodotti digitali, mantenendo coerenza e qualità.
+6. **Accessibilità e ampia diffusione**: Grazie alla natura web-based del prodotto, il contenuto è facilmente accessibile da qualsiasi dispositivo connesso a Internet. L’utilizzo di componenti responsive garantisce una fruizione ottimale anche su dispositivi mobili, ampliando il potenziale bacino di utenti.
 
 
 
