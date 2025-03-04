@@ -14,3 +14,9 @@ csl: IEEE.csl
 ![Logo UNIMI](./logo/logo.png){width=100px height=100px}
 
 # Health Dashboard! Una WebApp per tenere sotto controllo il tuo benessere
+
+[Link alla WebApp (in locale)](http://localhost:5174/)
+
+[Link alla repository del progetto](https://github.com/mauritiuss/health-dashboard)
+
+## Introduzione
