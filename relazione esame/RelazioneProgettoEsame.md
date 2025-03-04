@@ -130,15 +130,36 @@ Il flusso di gestione documentale si compone delle seguenti fasi:
 ```mermaid
 graph TD
     A[Inizio] --> B[Ideazione dei contenuti]
-    B --> C[Acquisizione dei contenuti con GPT-4]
+    B --> C[Acquisizione automatica dei contenuti con GPT-4]
     C --> D[Revisione dei contenuti da parte dei medici]
-    D --> E[Approvazione dei contenuti]
-    E --> F[Salvataggio e versionamento su GitHub]
-    F --> G[Sviluppo della WebApp in React]
-    G --> H[Installazione librerie necessarie]
-    H --> I[Collegamento del repository su GitHub]
-    I --> J[Distribuzione della WebApp]
-    J --> K[Fine]
+
+    E{Contenuti approvati?}
+    E -->|Sì| F[Approvazione dei contenuti]
+    E -->|No| C[Raccolta e revisione aggiuntiva]
+
+    F --> G[Salvataggio dei contenuti e versionamento su GitHub]
+
+    G --> H[Sviluppo della WebApp in React]
+    H --> I[Installazione librerie tramite npm]
+
+    subgraph Librerie utilizzate
+        direction TB
+        I1[semantic-ui-react & semantic-ui-css]
+        I2[recharts per i grafici]
+        I3[react-router-dom per la navigazione]
+        I4[papaparse per la gestione dei dati CSV]
+        I5[react-markdown per la visualizzazione dei testi]
+    end
+    I --> I1
+    I --> I2
+    I --> I3
+    I --> I4
+    I --> I5
+
+    H --> J[Collegamento del repository su GitHub]
+    J --> K[Versionamento del codice]
+    K --> L[Distribuzione della WebApp]
+    L --> M[Fine]
 ```
 
 
