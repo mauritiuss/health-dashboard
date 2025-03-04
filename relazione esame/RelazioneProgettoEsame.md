@@ -1,7 +1,7 @@
 ---
 title: Relazione del progetto d'esame di Editoria Digitale
-author: Davide Mauri 45123A
-date: a.a. 2024/20205
+author: Nome Cognome matricola studente
+date:  a.a. 2023/2024
 institute: Università degli Studi di Milano
 course: Editoria Digitale
 tags: tag1, tag2, tag3
@@ -11,18 +11,91 @@ bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
 
-![Logo UNIMI](./logo/logo.png){width=100px height=100px}
+![Logo UNIMI](./logo/minerva.jpg){width=100px height=100px}
 
-# Health Dashboard! Una WebApp per tenere sotto controllo il tuo benessere
+# Titolo Progetto d'Esame
+sottotitolo
 
-[Link alla WebApp (in locale)](http://localhost:5174/)
-
-[Link alla repository del progetto](https://github.com/mauritiuss/health-dashboard)
 
 ## Introduzione
 
-Questo progetto è stato sviluppato da un’azienda specializzata nella produzione di dispositivi smart per il monitoraggio della salute, come smartwatch e braccialetti fitness. L’obiettivo è creare un report personalizzato e interattivo, facilmente accessibile, coinvolgente e ricco di informazioni. Questo report permette all’utente di visualizzare in modo chiaro e intuitivo i dati rilevati dal proprio dispositivo smart, come il numero di passi giornalieri, la frequenza cardiaca, le ore di sonno e la temperatura corporea misurata dal polso.
+Breve descrizione del progetto toccando i punti più importanti affrontati nel documento.
+*Obiettivi*, *tecnologie*, aspetti salienti del *flusso di gestione documentale*, *risultati* raggiunti.  
 
-L’azienda richiedeva che il prodotto editoriale digitale fosse di facile comprensione per gli utenti, facilmente accessibile, coinvolgente e informativo. Per soddisfare queste esigenze, è stata scelta la soluzione di una WebApp, in quanto offre numerosi vantaggi: è accessibile da qualsiasi dispositivo con una connessione Internet, non richiede installazione, garantisce aggiornamenti immediati e consente un’esperienza interattiva e dinamica, adattandosi a diverse dimensioni di schermo.
+## Ideazione 
 
-Per l’acquisizione dei contenuti sono state utilizzate intelligenze artificiali, come GPT-4, per reperire documenti scientifici, con integrazioni e revisioni manuali da parte di medici esperti, ove necessario. Il risultato finale risponde pienamente alle richieste dell’azienda, offrendo un accesso semplice e un contenuto interattivo e accurato.
+### Tema
+Identificare i temi che il prodotto editoriale dovrà presentare. Evidenziare le domande frequenti, i bisogni insoddisfatti, gli argomenti correlati e la tendenza dell'attenzione su questi temi. 
+
+![UNIMI](https://www.erasmusmilan.com/wp-content/uploads/2016/02/Statale-e1478865636847.jpg)
+
+### Destinatari
+Descrivere i destinatari del prodotto editoriale utilizzando la tecnica delle personas. Descrivere alcuni scenari d'uso nei quali inserire le personas scelte come destinatari.
+
+
+### Modello di fruizione
+Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. Quali modelli di lettura e di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? Quali aspetti di innovazione possiamo proporre? Nella qualità dei contenuti o nel processo di fruizione?
+
+### Canali di distribuzione
+Presentare i canali di distribuzione che si intendono raggiugnere e i formati dati richiesti da ogni canale. Esempi di canali sono: (i) Web, (ii) Social, (iii) Market place, (iv) Intranet. Esempi di formati. (i) Word, (ii) ePub, (iii) CBZ, (iv) PDF, (v) WebBook. 
+Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. Nel settore esistono classi di documento standard? Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? Lo stile sarà orientato verso un'espressione formale o informale?
+
+## Processo di Produzione
+
+### Acquisizione dei contenuti
+Descrivere le fonti che saranno utilizzate nella costruzione del prodotto editoriale. Nella scelta delle fonti valutare il costo di acquisizione: (i) disponibili come fonti libere, (ii) generabili automaticamente, (iii) richiedono un lavoro di redazione manuale.
+
+### Gestione documentale
+
+Descrivere il *flusso di gestione documentale* definito per il progetto. Ad esempio, (i) la raccolta o produzione dei contenuti, (ii) la valutazione dei diritti, (iii) la trasformazione dei formati, (iv) la strutturazione dei contenuti, (v) l'applicazione dello stile grafico, (vi) la generazione dei metadati, (vii) la distribuzione dei contenuti. Nella descrizione del flusso considerare le  fasi di revisione, controllo e approvazione che possono richiedere le diverse fasi.
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+```mermaid
+flowchart LR
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+### Tecnologie adottate
+
+Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
+
+|                |Scenario 1                          |Scenario 2                       |
+|----------------|-------------------------------|-----------------------------|
+|Markdown |`'Isn't this fun?'`            |'Isn't this fun?'            |
+|XSLT       |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|ePud         |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+### Esecuzione del flusso
+Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.  
+
+## Valutazione dei risultati raggiunti
+
+
+### Valutazione del flusso di produzione
+
+Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
+ 
+### Confronto con lo stato dell'arte
+
+Può anche essere utile confrontare una versione ASIS del flusso di gestione, senza la tecnologia o le innovazioni proposte, e una TOBE che include la tecnologia e le innovazioni proposte dallo studente.
+
+### Limiti emersi
+
+È importante sottolineare i limiti emersi. Come l'impossibilità di accesso ad alcune tecnologie o fasi del flusso di gestione documentale, limiti nella automazione di alcune passi di trasformazione dei formati o di integrazione delle sorgenti
+
+## Conclusioni
+
+Discutere i risultati ottenuti, verificando se gli obiettivi definiti dai casi d'uso siano pienamente o parzialmente raggiunti. Evidenziare gli aspetti nei quali si sono raggiunti i risultati più soddisfacenti e le limitazioni emerse.
+
+## Bibliografia e sitografia
+
+Elencare i riferimenti bibliografici e risorse online che hanno maggiormente contribuito alla realizzazione del progetto. Ad esempio [@sechi2010,@pantieri2021,@ceravolo2023]
