@@ -68,39 +68,49 @@ I seguenti destinatari sono stati creati adottando la tecnica delle personas:
    - **Bisogni**: Interfaccia semplice e spiegazioni chiare sui dati, con indicazioni su quando è necessario consultare un medico.
    - **Scenario d'uso**:  Utilizza la WebApp per controllare i parametri vitali e si sente rassicurato dalla possibilità di accedere facilmente ai suoi dati.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Modello di fruizione
-Indicate i requisiti di accettazione che dovranno essere soddisfatti per raggiungere i destinatari. Quali modelli di lettura e di fruizione consideriamo più efficaci per i nostri destinatari? Quali standard consideriamo come riferimento? Quali aspetti di innovazione possiamo proporre? Nella qualità dei contenuti o nel processo di fruizione?
+L’azienda richiede un prodotto editoriale digitale interattivo che crei un report personalizzato, chiaro e coinvolgente. Per soddisfare queste esigenze, è stata scelta una WebApp perché è accessibile da qualsiasi dispositivo con una connessione Internet, senza bisogno di installare programmi aggiuntivi.
+
+Questa soluzione garantisce una fruibilità ottimale su una vasta gamma di dispositivi (smartphone, tablet, PC) e una maggiore adattabilità rispetto a formati statici come PDF o ePub, che possono richiedere applicazioni esterne o non adattarsi perfettamente agli schermi mobili.
+
+Per rendere i dati facili da consultare, abbiamo scelto un modello visivo e interattivo. La WebApp mostra i parametri rilevati (come passi giornalieri, frequenza cardiaca, ore di sonno e temperatura corporea) attraverso grafici chiari e spiegazioni semplici. Questo aiuta l’utente a interpretare facilmente le informazioni sulla propria salute.
+
+L’innovazione di questa WebApp sta nella combinazione di contenuti personalizzati e un’interfaccia interattiva. I dati non solo vengono mostrati, ma anche spiegati con suggerimenti pratici, aiutando l’utente a comprendere meglio il proprio stato di salute. La possibilità di visualizzare grafici dinamici e personalizzare le informazioni rende l’esperienza più coinvolgente e utile.
 
 ### Canali di distribuzione
-Presentare i canali di distribuzione che si intendono raggiugnere e i formati dati richiesti da ogni canale. Esempi di canali sono: (i) Web, (ii) Social, (iii) Market place, (iv) Intranet. Esempi di formati. (i) Word, (ii) ePub, (iii) CBZ, (iv) PDF, (v) WebBook. 
-Proporre alcuni accenni relativi all'identità visuale e alle regole tipografiche o di stile che si intendono seguire. Nel settore esistono classi di documento standard? Dati gli obiettivi è importante trasmettere un senso di adesione a modelli già conosciuti o un senso di innovazione? Lo stile sarà orientato verso un'espressione formale o informale?
+Per distribuire il prodotto editoriale digitale, si prevede l'utilizzo di:
+
+- **Web**: La WebApp sarà il canale principale, accessibile da qualsiasi browser senza bisogno di installare applicazioni aggiuntive.
+
+L’identità visuale seguirà uno stile moderno, chiaro e professionale, con un design minimale che favorisca la leggibilità e l’usabilità. 
+Per lo sviluppo grafico, ci siamo affidati a **Semantic UI**, una libreria front-end che offre componenti predefiniti eleganti e facilmente personalizzabili. Questo ha permesso di mantenere una coerenza visiva, con elementi ben strutturati e intuitivi.
+Per la rappresentazione dei dati, abbiamo scelto la libreria **Recharts**, che consente di creare grafici dinamici e interattivi (a barre, linee, torte) offrendo una visualizzazione immediata e comprensibile dei parametri monitorati.
+
+Inoltre:
+- **Colori**: Palette sobria con tonalità neutre e accenti di colore per evidenziare dati importanti (es.: verde per valori nella norma, rosso per anomalie).
+- **Icone**: Anche per le icone, abbiamo utilizzato Semantic UI, garantendo uno stile coerente e riconoscibile in tutta la WebApp.
+
+L’obiettivo è bilanciare innovazione e familiarità:
+- **Adesione a modelli conosciuti**: La struttura della WebApp richiama dashboard di monitoraggio già note, facilitando la navigazione intuitiva.
+- **Innovazione**: La personalizzazione avanzata dei report e la visualizzazione dinamica dei dati tramite grafici interattivi rendono l’esperienza più coinvolgente rispetto ai report tradizionali statici (come PDF).
+
+## Processo di Produzione
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Processo di Produzione
 
