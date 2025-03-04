@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { Container, Segment, Header } from "semantic-ui-react";
+import { Helmet } from 'react-helmet-async'; //Per i metadati
 
 const Documentation = () => {
   const [markdown, setMarkdown] = useState("");
@@ -21,6 +22,12 @@ const Documentation = () => {
   };
 
   return (
+    <>            <Helmet>
+                    <title>Riferimenti scientifici</title>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta name="description" content="Visualizza tutti i report scientifici che sono stati analizzati e che vengono messi a disposizione" />
+                </Helmet>
     <div
       style={{
         minHeight: "100vh",
@@ -40,6 +47,7 @@ const Documentation = () => {
         </Segment>
       </Container>
     </div>
+    </>
   );
 };
 

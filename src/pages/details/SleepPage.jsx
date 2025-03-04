@@ -3,6 +3,7 @@ import { Container, Header, Segment, Table } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
 import SleepChart from "../../components/SleepChart"; //Import per il grafico
+import { Helmet } from 'react-helmet-async'; //Per i metadati
 
 const StepsPage = () => {
   const navigate = useNavigate();
@@ -43,6 +44,13 @@ const StepsPage = () => {
     };
 
   return (
+    <>
+        <Helmet>
+            <title>Ore di sonno - Report Settimanale</title>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="description" content="Visualizza la tua attività di sonno settimanale con la tabella e il grafico delle ore di sonno. Scopri i giorni in cui hai raggiunto l'obiettivo e ricevi suggerimenti personalizzati." />
+        </Helmet>
     <div
           style={{
             minHeight: "100vh",
@@ -146,6 +154,7 @@ const StepsPage = () => {
 
     </Container>
     </div>
+    </>
   );
 };
 

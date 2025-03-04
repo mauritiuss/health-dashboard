@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Header, Segment } from "semantic-ui-react";
+import { Helmet } from 'react-helmet-async';
 import CardInfo from "../components/CardInfo";
 import { fetchCSV } from "../utils/csvReader";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
@@ -84,6 +85,13 @@ const Dashboard = () => {
         overflowX: "hidden",
       }}
     >
+      <Helmet>
+      <meta charSet="utf-8" />
+        <title>Dashboard del Benessere - Report Settimanale</title>
+        <meta name="description" content="Visualizza il report settimanale dei tuoi parametri di benessere: passi giornalieri, frequenza cardiaca, ore di sonno e temperatura del polso." />
+        <meta name="keywords" content="dashboard, salute, benessere, passi, frequenza cardiaca, sonno, temperatura" />
+        <meta name="author" content="Health Dashboard" />
+      </Helmet>
       <div style={{
         display: "flex",
         flexWrap: "wrap",

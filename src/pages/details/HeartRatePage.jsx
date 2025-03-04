@@ -3,6 +3,7 @@ import { Container, Header, Segment, Table, Message } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
 import HeartRateChart from "../../components/HeartRateChart"; //Import per il grafico
+import { Helmet } from 'react-helmet-async'; //Per i metadati
 
 const StepsPage = () => {
   const navigate = useNavigate();
@@ -19,6 +20,12 @@ const StepsPage = () => {
 
   return (
     <>
+            <Helmet>
+                <title>Frequenza cardiaca - Report Settimanale</title>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="description" content="Visualizza la tua attività cardiaca settimanale con la tabella e il grafico delle frequenza cardiache." />
+            </Helmet>
       <div
         style={{
           minHeight: "100vh",
