@@ -157,8 +157,7 @@ graph TD
 
     G --> J[Collegamento del repository su GitHub]
     J --> K[Versionamento del codice]
-    K --> L[Distribuzione della WebApp]
-    L --> M[Fine]
+    K --> L[Fine]
 ```
 ### Tecnologie adottate
 
