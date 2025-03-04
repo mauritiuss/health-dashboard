@@ -176,41 +176,34 @@ Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la q
 | **GPT-4** | **Acquisizione e generazione dei contenuti.** Il modello di intelligenza artificiale GPT-4 di OpenAI è stato impiegato per raccogliere informazioni e generare testi chiari, coerenti e pertinenti. |
 | **Revisione medica** | **Validazione dei contenuti.** Dopo la generazione automatica dei testi, i contenuti sono stati esaminati da esperti medici per garantirne la correttezza e l’affidabilità, completando il processo di acquisizione con eventuali integrazioni e correzioni. |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Tecnologie adottate
-
-Descrivere le tecnologie addottate nelle diverse fasi e discuterne il contributo in termini di raggiungimento degli obiettivi descritti negli scenari d'uso.
-
-|                |Scenario 1                          |Scenario 2                       |
-|----------------|-------------------------------|-----------------------------|
-|Markdown |`'Isn't this fun?'`            |'Isn't this fun?'            |
-|XSLT       |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|ePud         |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
 ### Esecuzione del flusso
-Allegare, possibilmente attraverso il riferimento ad un repository documentale, i materiali, gli script, le configurazioni, che permettono di riprodurre il flusso di produzione documentale. I contenuti non devono necessariamente essere completi, può essere sufficiente fornire un prototipo per ogni tipologia di contenuto previsto e per ogni formato di destinazione previsto.  
+Tutti i materiali, script e configurazioni necessari per riprodurre il flusso di produzione documentale sono disponibili nel repository GitHub associato al progetto disponibile a questo [link](https://github.com/mauritiuss/health-dashboard).
 
 ## Valutazione dei risultati raggiunti
 
-
 ### Valutazione del flusso di produzione
+
+Il flusso proposto ha permesso di ottenere i seguenti risultati: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Per valutare il contributo proposto valutare le diverse fasi del flusso in termini di (i) riduzione dei tempi di gestione documentale, (ii) riduzione degli errori, (iii) miglioramento della qualità dei documenti, (iv) miglioramento del livello di accettazione della tecnologia, (v) raggiungimento di nuovi canali di distribuzione, (vi) soddisfacimento di nuovi scenari d'uso.
  
