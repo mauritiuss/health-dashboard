@@ -48,3 +48,6 @@ health-dashboard/
 |-- package.json         # Configurazione e dipendenze
 |-- vite.config.js       # Configurazione di Vite
 ```
+
+## Licenza
+Questo progetto è distribuito sotto licenza MIT. Sentiti libero di utilizzarlo e modificarlo secondo le tue necessità.
