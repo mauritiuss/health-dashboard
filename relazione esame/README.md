@@ -1,4 +1,4 @@
-# EDITORIA DIGITALE - a.a. 2023/2024
+# EDITORIA DIGITALE - a.a. 2024/2025
 
 ## Relazione
 Come generare la relazione al progetto d'esame
