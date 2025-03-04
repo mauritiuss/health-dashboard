@@ -1,12 +1,36 @@
-# React + Vite
+# Health Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologie utilizzate
 
-Currently, two official plugins are available:
+- **React**: Libreria principale per la costruzione dell'interfaccia utente.
+- **Vite**: Strumento di build veloce e leggero per progetti React.
+- **Semantic UI React**: Libreria di componenti predefiniti per uno stile moderno e coerente.
+- **PapaParse**: Libreria per la gestione e il parsing di file CSV.
+- **React Router DOM**: Gestione delle rotte per una navigazione fluida all'interno dell'app.
+- **Recharts**: Creazione di grafici interattivi e dinamici.
+- **React Markdown**: Visualizzazione di contenuti Markdown in componenti React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup del progetto
+Per eseguire il progetto in locale, segui questi passaggi:
+``
+# Clona il repository
+git clone https://github.com/mauritiuss/health-dashboard.git
+cd health-dashboard
 
-## Expanding the ESLint configuration
+# Inizializza il progetto con Vite
+npm create vite@latest . --template react
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Installa le dipendenze
+npm install
+
+# Installa le librerie necessarie
+npm install semantic-ui-react semantic-ui-css
+npm install papaparse
+npm install react-router-dom
+npm install recharts
+npm install react-markdown
+
+# Avvia il progetto
+npm run dev
+``
+Assicurati di avere Node.js installato per eseguire i comandi ``npm``.
