@@ -15,12 +15,12 @@ links:
   - "https://healthy.thewom.it/esami-e-analisi/frequenza-cardiaca/"
   - "https://www.humanavox.it/battito-cardiaco/"
   - "https://www.livellosalute.it/fitness/battiti-cardiaci-quanti-devono-essere-per-stare-bene/"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
+  - "https://www.microbiologiaitalia.it/salute/i-benefici-del-sonno-per-la-salute-mentale/?utm_source=chatgpt.com"
+  - "https://www.microbiologiaitalia.it/benessere/riposo-di-qualita/"
+  - "https://interlabanalisi.it/il-sonno-e-la-salute-perche-dormire-bene-e-importante/"
+  - "https://www.retehphitalia.it/limpatto-del-sonno-sulla-salute-unanalisi-approfondita/"
+  - "https://www.guidapsicologi.it/articoli/limportanza-del-sonno-perche-dovremmo-riposare-bene?"
+  - "https://www.veb.it/il-potere-del-sonno-perche-dormire-bene-e-essenziale-per-la-salute-mentale-e-fisica-119477?"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
   - "https://doi.org/10.1016/j.jacc.2023.07.029"
@@ -45,23 +45,23 @@ Ecco tutte le fonti utilizzate per creare questo report, così puoi approfondire
 5. **Livello Salute, 2023**: "Quanti battiti cardiaci sono normali per stare bene"  
    [leggi di più](https://www.livellosalute.it/fitness/battiti-cardiaci-quanti-devono-essere-per-stare-bene/)
 
-6. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+6. **Microbiologia Italia, 2024**: "I benefici del sonno per la salute mentale"  
+   [leggi di più](https://www.microbiologiaitalia.it/salute/i-benefici-del-sonno-per-la-salute-mentale/)
 
-7. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+7. **Microbiologia Italia, 2024**: "L’Importanza del Sonno: Riposo di Qualità per una Vita più Sana"  
+   [leggi di più](https://www.microbiologiaitalia.it/benessere/riposo-di-qualita/)
 
-8. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+8. **Interlab Analisi, 2024**: "Il sonno e la salute: perché dormire bene è fondamentale"  
+   [leggi di più](https://interlabanalisi.it/il-sonno-e-la-salute-perche-dormire-bene-e-importante/)
 
-9. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+9. **Rete HPH Italia, 2024**: "L’Impatto del sonno sulla salute: un’analisi approfondita"  
+   [leggi di più](https://www.retehphitalia.it/limpatto-del-sonno-sulla-salute-unanalisi-approfondita/)
 
-10. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+10. **Guida Psicologi, 2024**: "L’importanza del sonno di qualità: perché dovremmo riposare bene?"  
+   [leggi di più](https://www.guidapsicologi.it/articoli/limportanza-del-sonno-perche-dovremmo-riposare-bene?)
 
-11. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+11. **VEb.it, 2024**: "Il Potere del Sonno: Perché Dormire Bene è Essenziale per la Salute Mentale e Fisica"  
+   [leggi di più](https://www.veb.it/il-potere-del-sonno-perche-dormire-bene-e-essenziale-per-la-salute-mentale-e-fisica-119477?)
 
 12. ***Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
    [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Container, Header, Segment, Table, Message } from "semantic-ui-react";
 import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
-import StepsChart from "../../components/HeartRateChart"; //Import per il grafico
+import HeartRateChart from "../../components/HeartRateChart"; //Import per il grafico
 
 const StepsPage = () => {
   const navigate = useNavigate();
@@ -115,7 +115,7 @@ const StepsPage = () => {
             Le linee tratteggiate rossa e blu segnano le soglie di riferimento per la frequenza cardiaca massima (100 bpm) e minima (60 bpm). 
             Questo confronto visivo permette di monitorare con facilità la variabilità della frequenza cardiaca e individuare eventuali valori fuori dal range ideale.
             </Header>
-            <StepsChart data={heartRateData} />
+            <HeartRateChart data={heartRateData} />
         </Segment>
 
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
