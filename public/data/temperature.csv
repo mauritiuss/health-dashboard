@@ -1,8 +1,8 @@
-day,temperature
-Lunedì,36.5
-Martedì,36.7
-Mercoledì,36.6
-Giovedì,36.8
-Venerdì,36.4
-Sabato,36.9
-Domenica,36.5
+day,temperature,morningTemperature,afternoonTemperature,eveningTemperature
+Lunedi,35.4,34.0,36.6,35.6
+Martedi,36.1,35.5,37.0,35.8
+Mercoledi,35.9,34.8,36.5,36.4
+Giovedi,36.0,35.0,36.8,36.2
+Venerdi,38.1,37.8,38.5,38.0
+Sabato,38.6,38.2,39.0,38.5
+Domenica,37.8,37.5,38.0,37.8

@@ -54,7 +54,7 @@ const StepsPage = () => {
         </Message>
         
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
-  <Header as="h2">🗂️ Tabella della frequenza cardiaca giornaliera 🗂️</Header>
+  <Header as="h2">🫀 Tabella della frequenza cardiaca giornaliera 🫀</Header>
   <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
     La tabella riportata mostra i giorni della settimana e i valori della frequenza cardiaca rilevati quotidianamente.
     Ogni riga della tabella rappresenta un giorno specifico, mentre le colonne indicano la frequenza cardiaca media,
@@ -122,8 +122,8 @@ const StepsPage = () => {
                     <Header as="h2">🧐 Spiegazione 🧐</Header>
                     <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
                     Mantenere una frequenza cardiaca entro un range ottimale è essenziale per la salute cardiovascolare e il benessere generale. 
-                    Studi recenti hanno evidenziato che una frequenza cardiaca a riposo compresa tra 60 e 100 battiti al minuto (bpm) è considerata normale, ma mantenersi tra 50 e 70 bpm può offrire ulteriori benefici per la salute.
-                    Ecco alcuni dei vantaggi associati a una frequenza cardiaca ottimale:
+                    Studi recenti hanno evidenziato che una frequenza cardiaca a riposo compresa tra 60 e 100 battiti al minuto (bpm) è considerata normale, ma mantenersi tra 50 e 70 bpm può offrire ulteriori benefici per la salute.<br />
+                    <Header as="h3">✅ Vantaggi associati a una frequenza cardiaca ottimale: </Header>
                     <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
                       <li><b>Riduzione del rischio cardiovascolare</b>: diversi studi hanno dimostrato che una frequenza cardiaca a riposo inferiore a 75-80 bpm è associata a un minor rischio di infarto, ictus e altre patologie cardiache.</li>
                       <li><b>Migliore efficienza del cuore</b>: una frequenza cardiaca più bassa indica un cuore che lavora in modo più efficiente, riducendo lo sforzo necessario per pompare il sangue. Questo è spesso riscontrato negli atleti e nelle persone fisicamente attive</li>

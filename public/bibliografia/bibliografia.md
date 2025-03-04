@@ -21,10 +21,9 @@ links:
   - "https://www.retehphitalia.it/limpatto-del-sonno-sulla-salute-unanalisi-approfondita/"
   - "https://www.guidapsicologi.it/articoli/limportanza-del-sonno-perche-dovremmo-riposare-bene?"
   - "https://www.veb.it/il-potere-del-sonno-perche-dormire-bene-e-essenziale-per-la-salute-mentale-e-fisica-119477?"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
-  - "https://doi.org/10.1016/j.jacc.2023.07.029"
+  - "https://www.nurse24.it/infermiere/utility/temperatura-corporea.html"
+  - "https://www.salus.it/limportanza-della-temperatura-corporea-e-della-termoregolazione"
+  - "https://biologiawiki.it/wiki/regolazione-della-temperatura-corporea"
 ---
 ## 📚 Bibliografia 📚
 
@@ -63,14 +62,11 @@ Ecco tutte le fonti utilizzate per creare questo report, così puoi approfondire
 11. **VEb.it, 2024**: "Il Potere del Sonno: Perché Dormire Bene è Essenziale per la Salute Mentale e Fisica"  
    [leggi di più](https://www.veb.it/il-potere-del-sonno-perche-dormire-bene-e-essenziale-per-la-salute-mentale-e-fisica-119477?)
 
-12. ***Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+12. **Nurse24 - Elvira La Montagna, 2022**: "Temperatura corporea e i diversi tipi di Febbre"  
+   [Leggi di più]( https://www.nurse24.it/infermiere/utility/temperatura-corporea.html)
 
-13. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+13. **Salus, 2024**: "L’importanza della temperatura corporea e della termoregolazione"  
+   [Leggi di più](https://www.salus.it/limportanza-della-temperatura-corporea-e-della-termoregolazione)
 
-14. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
-
-15. **Carl J. Lavie, Charles A. German, Fabian Sanchis-Gomar, 2023**: "Relationship of Daily Step Counts to All-Cause Mortality and Cardiovascular Events"  
-   [https://doi.org/10.1016/j.jacc.2023.07.029](https://doi.org/10.1016/j.jacc.2023.07.029)
+14. **BiologiaWiki - Crisafulli, 2024**: "Regolazione della temperatura corporea - Termoregolazione - fisiologia"  
+   [Leggi di più](https://biologiawiki.it/wiki/regolazione-della-temperatura-corporea)

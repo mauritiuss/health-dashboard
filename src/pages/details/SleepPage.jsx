@@ -123,7 +123,10 @@ const StepsPage = () => {
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
             <Header as="h2">🧐 Spiegazione 🧐</Header>
             <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Dormire regolarmente per circa 8 ore a notte è fondamentale per mantenere una buona salute generale. Numerosi studi scientifici hanno evidenziato i seguenti benefici associati a un sonno adeguato:
+            Dormire regolarmente per circa 8 ore a notte è fondamentale per mantenere una buona salute generale, in quanto permette all'organismo di recuperare le energie consumate durante il giorno e svolgere importanti funzioni di rigenerazione. 
+            Un riposo adeguato favorisce il corretto funzionamento di vari sistemi del corpo, contribuendo al benessere fisico, mentale ed emotivo. 
+            Rispettare un ciclo di sonno regolare aiuta a stabilizzare l'orologio biologico, migliorando la qualità della vita quotidiana e le performance in diverse attività.<br />
+            <Header as="h3">✅ Benefici associati a un sonno adeguato: </Header>
             <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
               <li><b>Miglioramento delle funzioni cognitive</b>: durante il sonno, il cervello elabora le informazioni acquisite durante il giorno, consolidando la memoria e migliorando le capacità di apprendimento</li>
               <li><b>Salute cardiovascolare</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus.</li>

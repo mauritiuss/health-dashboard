@@ -69,7 +69,7 @@ const StepsPage = () => {
           }}
         >
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">🗂️ Tabella dei passi giornalieri 🗂️</Header>
+            <Header as="h2">🚶🏻‍♂️‍➡️ Tabella dei passi giornalieri 🚶🏻‍♂️‍➡️</Header>
             <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
             La tabella riportata mostra i giorni della settimana e il numero di passi effettuati quotidianamente. 
             Ogni riga della tabella rappresenta un giorno specifico, mentre la colonna accanto indica il conteggio dei passi registrati.
@@ -118,7 +118,8 @@ const StepsPage = () => {
             <Header as="h2">🧐 Spiegazione 🧐</Header>
             <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
             Camminare regolarmente è fondamentale per mantenere una buona salute generale. 
-            Studi recenti hanno evidenziato che raggiungere un obiettivo di 8.000 passi al giorno può apportare numerosi benefici, tra cui:
+            Studi recenti hanno evidenziato che raggiungere un obiettivo di 8.000 passi al giorno può apportare numerosi benefici.<br />
+                        <Header as="h3">✅ Benefici associati al raggiungimento di 8.000 passi al giorno: </Header>
             <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
               <li><b>Riduzione del rischio di mortalità</b>: uno studio ha dimostrato che le persone che compiono circa 8.000 passi al giorno presentano un rischio di mortalità inferiore del 51% rispetto a chi ne compie solo 4.000.</li>
               <li><b>Benefici cardiovascolari</b>: camminare regolarmente contribuisce a migliorare la salute del cuore, riducendo il rischio di malattie cardiovascolari.</li>
