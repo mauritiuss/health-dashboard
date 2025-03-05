@@ -4,10 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
 import SleepChart from "../../components/SleepChart"; //Import per il grafico
 import { Helmet } from 'react-helmet-async'; //Per i metadati
+import ReactMarkdown from 'react-markdown';
 
 const StepsPage = () => {
   const navigate = useNavigate();
   const [sleepData, setSleepData] = useState([]);
+  const [sleepTab, setsleepTab] = useState(""); // Stato per il markdown
+  const [sleepChart, setsleepChart] = useState(""); // Stato per il markdown
+  const [sleepExp, setsleepExp] = useState(""); // Stato per il markdown
   
     // Caricamento dati CSV
     useEffect(() => {
@@ -16,6 +20,22 @@ const StepsPage = () => {
         setSleepData(data); // Salva i dati nello stato
       };
       loadData();
+
+    // **Caricare il file markdown**
+    fetch("/testo/sleepTab.md")
+      .then(response => response.text())
+      .then(text => setsleepTab(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
+
+    fetch("/testo/sleepChart.md")
+      .then(response => response.text())
+      .then(text => setsleepChart(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
+    
+    fetch("/testo/sleepExp.md")
+      .then(response => response.text())
+      .then(text => setsleepExp(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
     }, []);
 
     const daysBelowTarget = sleepData.filter(entry => entry.sleep_hours < 8).length;
@@ -75,17 +95,11 @@ const StepsPage = () => {
             flex: 1,
             flexDirection: "column",
             gap: "20px",
+            textAlign: 'justify'
                 }}
         >
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
-          <Header as="h2">🌙 Tabella delle ore di sonno 🌙</Header>
-          <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            La tabella riportata mostra i giorni della settimana e le ore di sonno rilevate quotidianamente.
-            Ogni riga della tabella rappresenta un giorno specifico, mentre le colonne indicano il totale delle ore di sonno,
-            suddivise nelle diverse fasi: sonno leggero, sonno profondo e sonno REM.
-            Le caselle con un totale di ore di sonno inferiore a 8 sono evidenziate in rosso, mentre quelle con almeno 8 ore sono evidenziate in verde.
-            Questo permette di individuare rapidamente le giornate con un riposo non ottimale o particolarmente prolungato.
-          </Header>
+          <ReactMarkdown >{sleepTab}</ReactMarkdown>
 
           <Table celled striped textAlign="center">
             <Table.Header>
@@ -120,34 +134,13 @@ const StepsPage = () => {
         </Segment>
 
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">📈 Grafico delle ore di sonno 📈</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Il grafico sottostante fornisce una rappresentazione visiva della qualità e della durata del sonno giornaliero. 
-            Le barre colorate mostrano la suddivisione delle diverse fasi del sonno: il sonno leggero in azzurro, il sonno profondo in blu e il sonno REM in viola. 
-            La linea tratteggiata rossa indica l’obiettivo raccomandato di 8 ore di sonno per notte. 
-            Questo confronto visivo permette di monitorare facilmente il totale delle ore di riposo e la distribuzione delle varie fasi, aiutando a valutare la qualità complessiva del sonno.
-            </Header>
+        <ReactMarkdown >{sleepChart}</ReactMarkdown>
             <SleepChart data={sleepData} />
         </Segment>
 
         <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">🧐 Spiegazione 🧐</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Dormire regolarmente per circa 8 ore a notte è fondamentale per mantenere una buona salute generale, in quanto permette all'organismo di recuperare le energie consumate durante il giorno e svolgere importanti funzioni di rigenerazione. 
-            Un riposo adeguato favorisce il corretto funzionamento di vari sistemi del corpo, contribuendo al benessere fisico, mentale ed emotivo. 
-            Rispettare un ciclo di sonno regolare aiuta a stabilizzare l'orologio biologico, migliorando la qualità della vita quotidiana e le performance in diverse attività.<br />
-            <Header as="h3">✅ Benefici associati a un sonno adeguato: </Header>
-            <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-              <li><b>Miglioramento delle funzioni cognitive</b>: durante il sonno, il cervello elabora le informazioni acquisite durante il giorno, consolidando la memoria e migliorando le capacità di apprendimento. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Microbiologia Italia, 2024]</a></li>
-              <li><b>Salute cardiovascolare</b>: un riposo adeguato contribuisce a regolare la pressione sanguigna e riduce il rischio di malattie cardiache e ictus. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Microbiologia Italia, 2024]</a></li>
-              <li><b>Rafforzamento del sistema immunitario</b>: dormire a sufficienza aiuta a rafforzare le difese immunitarie, rendendo l’organismo più resistente alle infezioni. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Interlab Analisi, 2024]</a></li>
-              <li><b>Regolazione del metabolismo</b>: il sonno influisce sulla produzione di ormoni che controllano l’appetito e il metabolismo, contribuendo alla prevenzione di obesità e diabete. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Rete HPH Italia, 2024]</a></li>
-              <li><b>Benessere mentale</b>: un sonno di qualità migliora l’umore, riduce lo stress e favorisce l’equilibrio emotivo. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Guida Psicologi, 2024]</a></li>
-            </ul>
-            È importante sottolineare che la quantità di sonno necessaria può variare da persona a persona; tuttavia, gli esperti raccomandano generalmente tra le 7 e le 9 ore di sonno per notte per garantire un benessere ottimale.
-            </Header>
-            <Header as="h2">💡 Suggerimenti personalizzati 💡</Header>
-          <Header as="p" style={{ fontWeight: 'normal', textAlign: 'center' }}>
+        <ReactMarkdown >{sleepExp}</ReactMarkdown>
+        <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify', fontSize: "14px" }}>
             {getSuggestionMessage(daysBelowTarget)}
           </Header>
         </Segment>

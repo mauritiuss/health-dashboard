@@ -1,0 +1,2 @@
+## Tabella della frequenza cardiaca giornaliera 🫀
+La tabella riportata mostra i giorni della settimana e i valori della frequenza cardiaca rilevati quotidianamente. Ogni riga della tabella rappresenta un giorno specifico, mentre le colonne indicano la frequenza cardiaca media, minima e massima registrata. Le caselle con una frequenza cardiaca superiore a 100 bpm sono evidenziate in rosso, mentre quelle con una frequenza inferiore a 60 bpm sono evidenziate in blu. Questo permette di individuare rapidamente le giornate con valori fuori dal range ideale.

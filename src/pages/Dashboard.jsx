@@ -5,6 +5,7 @@ import CardInfo from "../components/CardInfo";
 import { fetchCSV } from "../utils/csvReader";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import ReactMarkdown from 'react-markdown';
 
 const CompletionProgress = ({ steps, bpm, sleep, temp }) => {
   let score = 0;
@@ -37,6 +38,7 @@ const Dashboard = () => {
   const [averageBpm, setAverageBpm] = useState(0);
   const [averageSleepHours, setAverageSleepHours] = useState(0);
   const [averageTemperature, setAverageTemperature] = useState(0);
+  const [markdownContent, setMarkdownContent] = useState(""); // Stato per il markdown
 
   useEffect(() => {
     const getAverage = async (path, key, setFunction) => {
@@ -68,6 +70,12 @@ const Dashboard = () => {
     getAverage("/data/heart_rate.csv", "heart_rate", setAverageBpm);
     getAverage("/data/sleep.csv", "sleep_hours", setAverageSleepHours);
     getAverage("/data/temperature.csv", "temperature", setAverageTemperature);
+
+    // **Caricare il file markdown**
+    fetch("/testo/dashboard.md")
+      .then(response => response.text())
+      .then(text => setMarkdownContent(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
   }, []);
 
   return (
@@ -103,11 +111,7 @@ const Dashboard = () => {
       }}>
         <Container style={{ flex: 1, minWidth: "300px"}}>
           <Segment style={{ padding: "40px", marginBottom: "40px" }}>
-            <Header as="h2">Dashboard del tuo benessere</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Con questa dashboard puoi visualizzare un report settimanale dei valori registrati sui tuoi parametri di benessere: passi giornalieri, frequenza cardiaca, ore di sonno e temperatura del polso. 
-            Monitorare costantemente questi indicatori è fondamentale per tenere sotto controllo il tuo stato di salute generale e adottare, se necessario, abitudini più equilibrate per migliorare il tuo benessere quotidiano.
-            </Header>
+            <ReactMarkdown >{markdownContent}</ReactMarkdown>
           </Segment>
         </Container>
 
@@ -123,7 +127,7 @@ const Dashboard = () => {
           flexDirection: 'column', 
           alignItems: 'center' 
         }}>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify', fontSize: "14px" }}>
             Questo grafico mostra il tuo punteggio di completamento in base alle quattro categorie chiave: passi giornalieri, frequenza cardiaca, ore di sonno e temperatura del polso.
             </Header>
             <CompletionProgress

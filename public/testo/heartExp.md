@@ -1,0 +1,9 @@
+## Spiegazione 🧐
+Mantenere una frequenza cardiaca entro un range ottimale è essenziale per la salute cardiovascolare e il benessere generale. Studi recenti hanno evidenziato che una frequenza cardiaca a riposo compresa tra 60 e 100 battiti al minuto (bpm) è considerata normale, ma mantenersi tra 50 e 70 bpm può offrire ulteriori benefici per la salute
+
+### ✅ Vantaggi associati a una frequenza cardiaca ottimale:
+- **Riduzione del rischio cardiovascolare**: diversi studi hanno dimostrato che una frequenza cardiaca a riposo inferiore a 75-80 bpm è associata a un minor rischio di infarto, ictus e altre patologie cardiache. [[leggi di più]](https://healthy.thewom.it/esami-e-analisi/frequenza-cardiaca/)
+- **Migliore efficienza del cuore**: una frequenza cardiaca più bassa indica un cuore che lavora in modo più efficiente, riducendo lo sforzo necessario per pompare il sangue. Questo è spesso riscontrato negli atleti e nelle persone fisicamente attive. [[leggi di più]](https://www.humanavox.it/battito-cardiaco/)
+- **Aumento della longevità**: studi suggeriscono che chi mantiene una frequenza cardiaca più bassa a riposo ha spesso una maggiore aspettativa di vita e una migliore qualità della salute.[[leggi di più]](https://www.livellosalute.it/fitness/battiti-cardiaci-quanti-devono-essere-per-stare-bene/)
+
+Sebbene una frequenza compresa tra 60 e 100 bpm sia considerata nella norma, puntare a valori tra 50 e 70 bpm può offrire ulteriori vantaggi. È sempre consigliabile monitorare la propria frequenza cardiaca e consultare un medico in caso di valori costantemente troppo alti o troppo bassi.

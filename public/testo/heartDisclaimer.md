@@ -1,0 +1,2 @@
+## Disclaimer ⚠️
+Ogni individuo è unico e la frequenza cardiaca può variare in base a numerosi fattori, come l'età, lo stile di vita, il livello di attività fisica, lo stato emotivo e la presenza di eventuali condizioni mediche. I dati riportati sono puramente informativi e non sostituiscono il parere di un professionista sanitario. Per una corretta interpretazione della propria frequenza cardiaca e una valutazione personalizzata, è fondamentale consultare un medico o uno specialista.

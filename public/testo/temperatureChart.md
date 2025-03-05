@@ -1,0 +1,2 @@
+## Grafico delle temperature 📈
+Il grafico sottostante offre una rappresentazione visiva delle temperature giornaliere rilevate in tre momenti della giornata: mattina, pomeriggio e sera. I punti gialli, arancioni e viola indicano rispettivamente le temperature registrate in queste fasce orarie, mentre la linea rossa rappresenta la temperatura media giornaliera. Questo confronto visivo consente di osservare facilmente le variazioni di temperatura nell’arco della settimana e di individuare eventuali scostamenti rispetto alla media.

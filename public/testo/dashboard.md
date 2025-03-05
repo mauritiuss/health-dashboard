@@ -1,0 +1,2 @@
+## Dashboard del tuo benessere
+Con questa dashboard puoi visualizzare un report settimanale dei valori registrati sui tuoi parametri di benessere: passi giornalieri, frequenza cardiaca, ore di sonno e temperatura del polso. Monitorare costantemente questi indicatori è fondamentale per tenere sotto controllo il tuo stato di salute generale e adottare, se necessario, abitudini più equilibrate per migliorare il tuo benessere quotidiano.

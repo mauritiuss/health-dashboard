@@ -4,10 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { fetchCSV } from "../../utils/csvReader"; //Import per leggere i file CSV
 import StepsChart from "../../components/StepsChart"; //Import per il grafico
 import { Helmet } from 'react-helmet-async'; //Per i metadati
+import ReactMarkdown from 'react-markdown';
 
 const StepsPage = () => {
   const navigate = useNavigate();
   const [stepsData, setStepsData] = useState([]);
+  const [stepsTab, setStepsTab] = useState(""); // Stato per il markdown
+  const [stepsChart, setStepsChart] = useState(""); // Stato per il markdown
+  const [stepsExp, setStepsExp] = useState(""); // Stato per il markdown
 
   // Caricamento dati CSV
   useEffect(() => {
@@ -16,6 +20,22 @@ const StepsPage = () => {
       setStepsData(data); // Salva i dati nello stato
     };
     loadData();
+
+    // **Caricare il file markdown**
+    fetch("/testo/stepsTab.md")
+      .then(response => response.text())
+      .then(text => setStepsTab(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
+
+    fetch("/testo/stepsChart.md")
+      .then(response => response.text())
+      .then(text => setStepsChart(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
+    
+    fetch("/testo/stepsExp.md")
+      .then(response => response.text())
+      .then(text => setStepsExp(text))
+      .catch(error => console.error("Errore nel caricamento del file markdown:", error));
   }, []);
 
   const daysBelowTarget = stepsData.filter(entry => entry.steps < 8000).length; //Tengo traccia dei giorni con meno di 8000 passi
@@ -75,16 +95,11 @@ const StepsPage = () => {
             flex: 1,
             flexDirection: "column",
             gap: "20px",
+            textAlign: 'justify'
           }}
         >
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">🚶🏻‍♂️‍➡️ Tabella dei passi giornalieri 🚶🏻‍♂️‍➡️</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            La tabella riportata mostra i giorni della settimana e il numero di passi effettuati quotidianamente. 
-            Ogni riga della tabella rappresenta un giorno specifico, mentre la colonna accanto indica il conteggio dei passi registrati.
-            Eventuali caselle che contengono un numero di passi inferiore a 8000 sono evidenziate in rosso. 
-            Questo accorgimento permette di individuare rapidamente i giorni in cui l'obiettivo giornaliero di attività fisica non è stato raggiunto, offrendo un'immediata visualizzazione delle giornate meno attive.
-            </Header>
+            <ReactMarkdown >{stepsTab}</ReactMarkdown>
 
             <Table celled striped textAlign="center">
               <Table.Header>
@@ -114,30 +129,13 @@ const StepsPage = () => {
           </Segment>
 
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">📈 Grafico dei passi 📈</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Il grafico sottostante fornisce una rappresentazione visiva dell'andamento dei passi giornalieri.
-            La linea viola rappresenta i passi effettivamente compiuti dall'utente, mentre la linea rossa indica l'obiettivo di passi da raggiungere ogni giorno. 
-            Questo confronto visivo permette di valutare facilmente i giorni in cui non sono stati raggiunti i passi giornalieri.
-            </Header>
+          <ReactMarkdown >{stepsChart}</ReactMarkdown>
             <StepsChart data={stepsData} />
           </Segment>
 
           <Segment style={{ padding: "40px", margin: "0 20px" }}>
-            <Header as="h2">🧐 Spiegazione 🧐</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify' }}>
-            Camminare regolarmente è fondamentale per mantenere una buona salute generale. 
-            Studi recenti hanno evidenziato che raggiungere un obiettivo di 8.000 passi al giorno può apportare numerosi benefici.<br />
-                        <Header as="h3">✅ Benefici associati al raggiungimento di 8.000 passi al giorno: </Header>
-            <ul style={{ textAlign: 'justify', paddingLeft: '20px' }}>
-              <li><b>Riduzione del rischio di mortalità</b>: uno studio ha dimostrato che le persone che compiono circa 8.000 passi al giorno presentano un rischio di mortalità inferiore del 51% rispetto a chi ne compie solo 4.000. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Corriere della Sera, Salute, 2023]</a></li>
-              <li><b>Benefici cardiovascolari</b>: camminare regolarmente contribuisce a migliorare la salute del cuore, riducendo il rischio di malattie cardiovascolari. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Kosuke Inoue, Amanda E. Paluch, 2023]</a></li>
-              <li><b>Miglioramento del benessere generale</b> l’attività fisica moderata, come la camminata, favorisce il controllo del peso corporeo, migliora l’umore e aumenta i livelli di energia. <a href="/documentation" style={{ fontSize: '0.8em' }}>[Kosuke Inoue, Amanda E. Paluch, 2023]</a></li>
-            </ul>
-            È importante sottolineare che, sebbene l’obiettivo tradizionale sia spesso stato fissato a 10.000 passi giornalieri, recenti ricerche indicano che già con 8.000 passi si possono ottenere significativi benefici per la salute.
-            </Header>
-            <Header as="h2">💡 Suggerimenti 💡</Header>
-            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'center' }}>
+          <ReactMarkdown >{stepsExp}</ReactMarkdown>
+            <Header as="p" style={{ fontWeight: 'normal', textAlign: 'justify', fontSize: "14px" }}>
               {getSuggestionMessage(daysBelowTarget)}
             </Header>
           </Segment>

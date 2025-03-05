@@ -1,0 +1,2 @@
+## Grafico delle ore di sonno 📈
+Il grafico sottostante fornisce una rappresentazione visiva della qualità e della durata del sonno giornaliero. Le barre colorate mostrano la suddivisione delle diverse fasi del sonno: il sonno leggero in azzurro, il sonno profondo in blu e il sonno REM in viola. La linea tratteggiata rossa indica l’obiettivo raccomandato di 8 ore di sonno per notte. Questo confronto visivo permette di monitorare facilmente il totale delle ore di riposo e la distribuzione delle varie fasi, aiutando a valutare la qualità complessiva del sonno.

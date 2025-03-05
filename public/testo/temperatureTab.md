@@ -1,0 +1,2 @@
+## Tabella delle temperature giornaliere 🌡️
+La tabella riportata mostra i giorni della settimana e le temperature rilevate in tre momenti della giornata: mattina, pomeriggio e sera. Ogni riga rappresenta un giorno specifico, mentre le colonne indicano le temperature registrate nelle diverse fasce orarie. Eventuali temperature serali superiori a 37°C sono evidenziate in rosso, segnalando possibili condizioni di caldo anomalo.

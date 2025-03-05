@@ -1,0 +1,2 @@
+## Tabella delle ore di sonno 🌙
+La tabella riportata mostra i giorni della settimana e le ore di sonno rilevate quotidianamente. Ogni riga della tabella rappresenta un giorno specifico, mentre le colonne indicano il totale delle ore di sonno, suddivise nelle diverse fasi: sonno leggero, sonno profondo e sonno REM. Le caselle con un totale di ore di sonno inferiore a 8 sono evidenziate in rosso, mentre quelle con almeno 8 ore sono evidenziate in verde. Questo permette di individuare rapidamente le giornate con un riposo non ottimale o particolarmente prolungato.
