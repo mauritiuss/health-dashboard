@@ -168,8 +168,8 @@ graph TD
 ### Tecnologie adottate
 Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la qualità delle diverse fasi del progetto, offrendo strumenti adeguati sia per la creazione dei contenuti che per la loro gestione e distribuzione. Ecco una panoramica delle tecnologie principali e del loro contributo:
 
-| Tecnologia  | Contributo principale |
-|-------------|------------------------|
+| **Tecnologia**  | **Contributo principale** |
+|-----------------|---------------------------|
 | **React** | **Sviluppo della WebApp.** React è stato scelto per la sua efficienza nella creazione di interfacce dinamiche e responsive. Grazie alla sua architettura basata su componenti, ha permesso di costruire un’app modulare e facilmente manutenibile. |
 | **GitHub**    | **Gestione del repository e del versioning.** GitHub è stato utilizzato per il controllo della versione del progetto, consentendo una gestione efficace del codice e la collaborazione tramite commit, pull request e issue tracking. |
 | **Semantic UI** | **Interfaccia grafica e stile visivo.** Questo framework è stato utilizzato per creare un design moderno e coerente, offrendo componenti UI predefiniti per una WebApp responsive e intuitiva. |
