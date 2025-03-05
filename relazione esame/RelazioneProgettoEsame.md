@@ -7,7 +7,6 @@ course: Editoria Digitale
 tags: tag1, tag2, tag3
 version: 0.1
 kind: Document
-bibliography: bibliografia.bib
 csl: IEEE.csl
 ---
 
@@ -87,10 +86,12 @@ Per lo sviluppo grafico, ci siamo affidati a **Semantic UI**, una libreria front
 Per la rappresentazione dei dati, abbiamo scelto la libreria **Recharts**, che consente di creare grafici dinamici e interattivi (a barre, linee, torte) offrendo una visualizzazione immediata e comprensibile dei parametri monitorati.
 
 Inoltre:
+
 - **Colori**: Palette sobria con tonalità neutre e accenti di colore per evidenziare dati importanti (es.: verde per valori nella norma, rosso per anomalie).
 - **Icone**: Anche per le icone, abbiamo utilizzato Semantic UI, garantendo uno stile coerente e riconoscibile in tutta la WebApp.
 
 L’obiettivo è bilanciare innovazione e familiarità:
+
 - **Adesione a modelli conosciuti**: La struttura della WebApp richiama dashboard di monitoraggio già note, facilitando la navigazione intuitiva.
 - **Innovazione**: La personalizzazione avanzata dei report e la visualizzazione dinamica dei dati tramite grafici interattivi rendono l’esperienza più coinvolgente rispetto ai report tradizionali statici (come PDF).
 
@@ -107,12 +108,14 @@ Successivamente, il contenuto è stato sottoposto a una revisione manuale da par
 Quando le fonti originali si sono rivelate insufficienti o poco precise, sono state selezionate ulteriori risorse affidabili per completare il processo di acquisizione dei contenuti in modo rigoroso e attendibile.
 
 Spiegazione del modello adottato:
+
 - **GPT-4**: Si tratta di un modello di linguaggio di ultima generazione sviluppato da OpenAI, noto per la sua capacità di comprendere il contesto e produrre risposte dettagliate e accurate. È stato scelto per la sua particolare efficacia nella generazione di testi complessi, supportando attività come la scrittura creativa, la revisione e l’elaborazione di contenuti tecnici. Questa tecnologia si è rivelata fondamentale nella fase iniziale di raccolta e strutturazione delle informazioni.
 
 L’approccio combinato tra l’utilizzo dell’intelligenza artificiale per il reperimento delle fonti e la revisione da parte di medici esperti ha permesso di offrire agli utenti informazioni accurate, complete e di alto valore.
 
 ### Gestione documentale
 Il flusso di gestione documentale si compone delle seguenti fasi:
+
 1. **Ideazione**: dentificazione dei contenuti più comuni e significativi in base alle esigenze emerse dalle *personas* definite. Questa fase ha permesso di stabilire quali dati e informazioni sarebbero stati più utili e rilevanti per gli utenti finali.
 2. **Acquisizione dei contenuti**: Raccolta delle informazioni tramite intelligenza artificiale, utilizzando **ChatGPT basato sul modello GPT-4**. L’AI è stata impiegata per reperire studi scientifici e dati utili riguardanti i parametri di monitoraggio della salute, come passi giornalieri, frequenza cardiaca, ore di sonno e temperatura corporea.
 3. **Revisione dei contenuti**: Le informazioni raccolte tramite l’AI sono state sottoposte a una revisione manuale da parte di medici esperti. Questo passaggio ha garantito l’accuratezza, la coerenza e l’affidabilità dei dati, integrando o correggendo eventuali inesattezze fornite dall’intelligenza artificiale.
