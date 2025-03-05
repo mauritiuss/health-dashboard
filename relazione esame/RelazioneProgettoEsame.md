@@ -171,7 +171,7 @@ Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la q
 | **Tecnologia**  | **Contributo principale** |
 |-----------------|---------------------------|
 | **React** | **Sviluppo della WebApp.** React è stato scelto per la sua efficienza nella creazione di interfacce dinamiche e responsive. Grazie alla sua architettura basata su componenti, ha permesso di costruire un’app modulare e facilmente manutenibile. |
-| **GitHub**    | **Gestione del repository e del versioning.** GitHub è stato utilizzato per il controllo della versione del progetto, consentendo una gestione efficace del codice e la collaborazione tramite commit, pull request e issue tracking. |
+| **GitHub**    | **Gestione del repository e del versioning.** GitHub è stato utilizzato per il controllo della versione del progetto, consentendo una gestione efficace del codice. |
 | **Semantic UI** | **Interfaccia grafica e stile visivo.** Questo framework è stato utilizzato per creare un design moderno e coerente, offrendo componenti UI predefiniti per una WebApp responsive e intuitiva. |
 | **Recharts**   | **Creazione di grafici interattivi.** Questa libreria è stata utilizzata per visualizzare dati in modo chiaro e intuitivo, offrendo grafici personalizzabili e reattivi. |
 | **react-router-dom** | **Gestione della navigazione.**  È stato utilizzato per implementare un sistema di routing dinamico, permettendo la navigazione fluida tra le diverse sezioni della WebApp. |
@@ -179,7 +179,6 @@ Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la q
 | **react-markdown** | **Visualizzazione di contenuti testuali.** È stata utilizzata per convertire il contenuto dei testi in formato Markdown, garantendo una resa leggibile direttamente nella WebApp. |
 | **react-helmet-async** | **Gestione dei metadati delle pagine.** Questa libreria è stata utilizzata per definire i metadati di ogni pagina della WebApp, come titolo, charset, viewport e descrizione. Sebbene la WebApp sia destinata agli utenti e non indicizzata dai motori di ricerca, questi metadati migliorano l’organizzazione interna, la chiarezza delle informazioni e l'ottimizzazione della visualizzazione su diversi dispositivi. Questo approccio ha facilitato l'organizzazione dei contenuti, garantendo coerenza tra i diversi file.|
 | **GPT-4** | **Acquisizione e generazione dei contenuti.** Il modello di intelligenza artificiale GPT-4 di OpenAI è stato impiegato per raccogliere informazioni e generare testi chiari, coerenti e pertinenti. |
-| **Revisione medica** | **Validazione dei contenuti.** Dopo la generazione automatica dei testi, i contenuti sono stati esaminati da esperti medici per garantirne la correttezza e l’affidabilità, completando il processo di acquisizione con eventuali integrazioni e correzioni. |
 
 ### Esecuzione del flusso
 Tutti i materiali, script e configurazioni necessari per riprodurre il flusso di produzione documentale sono disponibili nel repository GitHub associato al progetto disponibile a questo [link](https://github.com/mauritiuss/health-dashboard).
