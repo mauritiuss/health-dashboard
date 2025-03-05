@@ -9,6 +9,7 @@
 - **React Router DOM**: Gestione delle rotte per una navigazione fluida all'interno dell'app.
 - **Recharts**: Creazione di grafici interattivi e dinamici.
 - **React Markdown**: Visualizzazione di contenuti Markdown in componenti React.
+- **Helmet**: Gestione dinamica dei metadati in applicazioni React.
 
 ## Setup del progetto
 Per eseguire il progetto in locale, segui questi passaggi:
