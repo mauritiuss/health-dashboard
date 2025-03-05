@@ -86,10 +86,11 @@ const Dashboard = () => {
       }}
     >
       <Helmet>
-      <meta charSet="utf-8" />
+        <meta charSet="utf-8" />
         <title>Dashboard del Benessere - Report Settimanale</title>
         <meta name="description" content="Visualizza il report settimanale dei tuoi parametri di benessere: passi giornalieri, frequenza cardiaca, ore di sonno e temperatura del polso." />
         <meta name="keywords" content="dashboard, salute, benessere, passi, frequenza cardiaca, sonno, temperatura" />
+        <meta name="description" content="Visualizza il report settimanale con il grafico di completamento delle quattro categorie." />
         <meta name="author" content="Health Dashboard" />
       </Helmet>
       <div style={{

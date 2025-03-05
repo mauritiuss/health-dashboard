@@ -49,7 +49,9 @@ const StepsPage = () => {
             <title>Ore di sonno - Report Settimanale</title>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="keywords" content="sonno, salute, benessere, dormire, REM, sonno leggero, sonno profondo" />
             <meta name="description" content="Visualizza la tua attività di sonno settimanale con la tabella e il grafico delle ore di sonno. Scopri i giorni in cui hai raggiunto l'obiettivo e ricevi suggerimenti personalizzati." />
+            <meta name="author" content="Health Dashboard" />
         </Helmet>
     <div
           style={{

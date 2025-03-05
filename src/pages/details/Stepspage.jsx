@@ -49,7 +49,9 @@ const StepsPage = () => {
         <title>Passi Giornalieri - Report Settimanale</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="steps, salute, benessere, camminare, passi" />
         <meta name="description" content="Visualizza la tua attività settimanale con la tabella e il grafico dei passi giornalieri. Scopri i giorni in cui hai raggiunto l'obiettivo e ricevi suggerimenti personalizzati." />
+        <meta name="author" content="Health Dashboard" />
     </Helmet>
       <div
         style={{

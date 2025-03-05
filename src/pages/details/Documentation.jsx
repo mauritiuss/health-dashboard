@@ -26,7 +26,9 @@ const Documentation = () => {
                     <title>Riferimenti scientifici</title>
                     <meta charset="UTF-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta name="keywords" content="documentazione, salute, benessere, bibliografia, studi scientifici, scienza, report" />
                     <meta name="description" content="Visualizza tutti i report scientifici che sono stati analizzati e che vengono messi a disposizione" />
+                    <meta name="author" content="Health Dashboard" />
                 </Helmet>
     <div
       style={{
