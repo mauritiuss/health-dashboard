@@ -74,7 +74,7 @@ Questa soluzione garantisce una fruibilità ottimale su una vasta gamma di dispo
 
 Per rendere i dati facili da consultare, abbiamo scelto un modello visivo e interattivo. La WebApp mostra i parametri rilevati (come passi giornalieri, frequenza cardiaca, ore di sonno e temperatura corporea) attraverso grafici chiari e spiegazioni semplici. Questo aiuta l’utente a interpretare facilmente le informazioni sulla propria salute.
 
-L’innovazione di questa WebApp sta nella combinazione di contenuti personalizzati e un’interfaccia interattiva. I dati non solo vengono mostrati, ma anche spiegati con suggerimenti pratici, aiutando l’utente a comprendere meglio il proprio stato di salute. La possibilità di visualizzare grafici dinamici e personalizzare le informazioni rende l’esperienza più coinvolgente e utile.
+L’innovazione di questa WebApp sta nella combinazione di contenuti personalizzati e un’interfaccia interattiva. I dati non solo vengono mostrati, ma anche spiegati con suggerimenti pratici, aiutando l’utente a comprendere meglio il proprio stato di salute. La possibilità di visualizzare grafici dinamici e personalizzati rende l’esperienza più coinvolgente e utile.
 
 ### Canali di distribuzione
 Per distribuire il prodotto editoriale digitale, si prevede l'utilizzo di:
@@ -116,19 +116,19 @@ L’approccio combinato tra l’utilizzo dell’intelligenza artificiale per il 
 ### Gestione documentale
 Il flusso di gestione documentale si compone delle seguenti fasi:
 
-1. **Ideazione**: dentificazione dei contenuti più comuni e significativi in base alle esigenze emerse dalle *personas* definite. Questa fase ha permesso di stabilire quali dati e informazioni sarebbero stati più utili e rilevanti per gli utenti finali.
+1. **Ideazione**: Identificazione dei contenuti più comuni e significativi in base alle esigenze emerse dalle *personas* definite. Questa fase ha permesso di stabilire quali dati e informazioni sarebbero stati più utili e rilevanti per gli utenti finali.
 2. **Acquisizione dei contenuti**: Raccolta delle informazioni tramite intelligenza artificiale, utilizzando **ChatGPT basato sul modello GPT-4**. L’AI è stata impiegata per reperire studi scientifici e dati utili riguardanti i parametri di monitoraggio della salute, come passi giornalieri, frequenza cardiaca, ore di sonno e temperatura corporea.
 3. **Revisione dei contenuti**: Le informazioni raccolte tramite l’AI sono state sottoposte a una revisione manuale da parte di medici esperti. Questo passaggio ha garantito l’accuratezza, la coerenza e l’affidabilità dei dati, integrando o correggendo eventuali inesattezze fornite dall’intelligenza artificiale.
 4. **Sviluppo della WebApp**: Creazione della WebApp utilizzando **React**. Questa tecnologia è stata scelta per la sua flessibilità, la capacità di creare interfacce dinamiche e l’ampio supporto della community di sviluppatori.
 5. **Gestione del versionamento**: Collegamento del repository del progetto a **GitHub**, in modo da gestire in modo efficiente il versionamento del codice e facilitare la collaborazione e il monitoraggio delle modifiche.
 6. **Implementazione delle librerie**: Installazione e utilizzo delle librerie necessarie tramite **npm**, per garantire una corretta scrittura del codice e un’interfaccia intuitiva e responsive. Le librerie adottate sono state:
-   - **semantic-ui-react** e **semantic-ui-cs** per la progettazione dell’interfaccia grafica.
+   - **Semantic UI** per la progettazione dell’interfaccia grafica.
    - **Vite** per la creazione rapida del progetto React.
-   - **papaparse** per la gestione e l’elaborazione dei file CSV.
-   - **react-router-dom** per la navigazione tra le diverse pagine della WebApp.
-   - **recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
-   - **react-markdown** per il rendering dei testi in formato markdown.
-   - **react-helmet-async** per gestire in modo dinamico i metadati delle pagine, come titolo, descrizione e parole chiave.
+   - **Papaparse** per la gestione e l’elaborazione dei file CSV.
+   - **React-router-dom** per la navigazione tra le diverse pagine della WebApp.
+   - **Recharts** per la visualizzazione dei dati attraverso grafici chiari e interattivi.
+   - **React-markdown** per il rendering dei testi in formato markdown.
+   - **React-helmet-async** per gestire in modo dinamico i metadati delle pagine, come titolo, descrizione e parole chiave.
 7. **Salvataggio e aggiornamento**: Ogni modifica e aggiornamento dei contenuti e del codice è stato salvato e versionato tramite GitHub, garantendo una gestione ordinata e tracciabile dello sviluppo del progetto.
 
 ```mermaid
@@ -147,12 +147,12 @@ graph TD
 
     subgraph Librerie utilizzate
         direction TB
-        I1[semantic-ui-react & semantic-ui-css]
-        I2[recharts per i grafici]
-        I3[react-router-dom per la navigazione]
-        I4[papaparse per la gestione dei dati CSV]
-        I5[react-markdown per la visualizzazione dei testi]
-        I6[react-helmet-async per la gestione dei metadati]
+        I1[Semantic UI]
+        I2[Recharts per i grafici]
+        I3[React-router-dom per la navigazione]
+        I4[Papaparse per la gestione dei dati CSV]
+        I5[React-markdown per la visualizzazione dei testi]
+        I6[React-helmet-async per la gestione dei metadati]
     end
     H --> I1
     H --> I2
@@ -173,8 +173,7 @@ Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la q
 |-------------|------------------------|
 | **React** | **Sviluppo della WebApp.** React è stato scelto per la sua efficienza nella creazione di interfacce dinamiche e responsive. Grazie alla sua architettura basata su componenti, ha permesso di costruire un’app modulare e facilmente manutenibile. |
 | **GitHub**    | **Gestione del repository e del versioning.** GitHub è stato utilizzato per il controllo della versione del progetto, consentendo una gestione efficace del codice e la collaborazione tramite commit, pull request e issue tracking. |
-| **semantic-ui-react**  | **Realizzazione dell’interfaccia grafica.** Questa libreria è stata impiegata per creare componenti UI moderni e responsive, garantendo coerenza stilistica e facilità d’uso. |
-| **semantic-ui-css** | **Stile visivo della WebApp** Insieme a semantic-ui-react, questa libreria ha fornito un set di regole CSS predefinite per ottenere un design pulito e professionale senza necessità di personalizzazioni estese.. |
+| **Semantic UI** | **Interfaccia grafica e stile visivo.** Questo framework è stato utilizzato per creare un design moderno e coerente, offrendo componenti UI predefiniti per una WebApp responsive e intuitiva. |
 | **Recharts**   | **Creazione di grafici interattivi.** Questa libreria è stata utilizzata per visualizzare dati in modo chiaro e intuitivo, offrendo grafici personalizzabili e reattivi. |
 | **react-router-dom** | **Gestione della navigazione.**  È stato utilizzato per implementare un sistema di routing dinamico, permettendo la navigazione fluida tra le diverse sezioni della WebApp. |
 | **Papaparse** | **Gestione dei file CSV.** Questa libreria ha semplificato l’importazione e l’elaborazione dei dati provenienti da file CSV, rendendo efficiente la lettura e la trasformazione dei dati strutturati. |
@@ -192,9 +191,9 @@ Tutti i materiali, script e configurazioni necessari per riprodurre il flusso di
 
 Il flusso di produzione adottato ha consentito di ottenere risultati significativi in termini di efficienza, qualità e scalabilità:
 
-1. **Riduzione dei tempi di sviluppo e gestione**: L’integrazione di strumenti moderni come **React** per la creazione della WebApp e **GitHub** per la gestione del versionamento ha reso possibile una gestione snella e strutturata del progetto. L’utilizzo di librerie consolidate come **semantic-ui-react** e **Recharts** ha ridotto i tempi di sviluppo, offrendo componenti pronti all’uso e facilmente personalizzabili.
+1. **Riduzione dei tempi di sviluppo e gestione**: L’integrazione di strumenti moderni come **React** per la creazione della WebApp e **GitHub** per la gestione del versionamento ha reso possibile una gestione snella e strutturata del progetto. L’utilizzo di librerie consolidate come **Semantic UI** e **Recharts** ha ridotto i tempi di sviluppo, offrendo componenti pronti all’uso e facilmente personalizzabili.
 2. **Minimizzazione degli errori**: La fase di acquisizione dei contenuti è stata supportata dall’intelligenza artificiale, con il modello **GPT-4**, che ha fornito testi chiari e coerenti basati su fonti affidabili. La revisione effettuata da **esperti medici** ha permesso di validare i contenuti, correggere eventuali imprecisioni e garantire la qualità scientifica delle informazioni fornite.
-3. **Miglioramento della qualità dei contenuti e della presentazione**: L’adozione di **semantic-ui-react** per la creazione dell’interfaccia grafica e di **Recharts** per la visualizzazione dei dati ha reso la WebApp non solo funzionale, ma anche esteticamente curata e user-friendly. Questo approccio ha contribuito a migliorare la leggibilità e l’interattività dei contenuti.
+3. **Miglioramento della qualità dei contenuti e della presentazione**: L’adozione di **Semantic UI** per la creazione dell’interfaccia grafica e di **Recharts** per la visualizzazione dei dati ha reso la WebApp non solo funzionale, ma anche esteticamente curata e user-friendly. Questo approccio ha contribuito a migliorare la leggibilità e l’interattività dei contenuti.
 4. **Gestione efficace del versionamento**: La scelta di **GitHub** come piattaforma di versionamento ha facilitato la tracciabilità completa delle modifiche e una gestione centralizzata del codice e dei contenuti. Le librerie installate tramite **npm** (come **react-router-dom** e **react-markdown**) hanno semplificato ulteriormente la struttura del progetto.
 5. **Flessibilità e adattabilità a nuovi scenari d’uso**: Il flusso adottato è altamente scalabile e riutilizzabile. Le tecnologie impiegate sono standard del settore, facilmente aggiornabili e adattabili a nuove esigenze editoriali. Questo approccio consente di creare rapidamente nuove WebApp o prodotti digitali, mantenendo coerenza e qualità.
 6. **Accessibilità e ampia diffusione**: Grazie alla natura web-based del prodotto, il contenuto è facilmente accessibile da qualsiasi dispositivo connesso a Internet. L’utilizzo di componenti responsive garantisce una fruizione ottimale anche su dispositivi mobili, ampliando il potenziale bacino di utenti.
