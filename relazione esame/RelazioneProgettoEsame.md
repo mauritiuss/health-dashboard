@@ -214,6 +214,7 @@ Infine, l’affidamento all’intelligenza artificiale (**GPT-4**) per l’acqui
  
 ## Conclusioni
 In conclusione, gli obiettivi principali del progetto sono stati pienamente raggiunti, grazie a un flusso di lavoro ben strutturato e all’uso di tecnologie adeguate. Vediamo nel dettaglio:
+
 - **Raccolta e validazione dei contenuti**: L’utilizzo di **GPT-4** ha permesso di acquisire rapidamente informazioni utili e pertinenti, che sono state poi sottoposte alla revisione di **esperti medici**. Questo ha garantito un equilibrio tra velocità di produzione e accuratezza scientifica.
 - **Gestione del versioning e aggiornamenti**: L’integrazione con **GitHub** ha reso semplice la gestione delle versioni del progetto, permettendo un controllo preciso delle modifiche.
 - **Sviluppo di una WebApp moderna**: La scelta di **React** come framework di sviluppo ha consentito la realizzazione di un’interfaccia dinamica e interattiva, offrendo un’esperienza utente fluida e intuitiva. L’uso di librerie come **Semantic UI** e **Recharts** ha permesso di creare componenti grafici chiari e visualizzazioni dei dati efficaci.
