@@ -166,7 +166,6 @@ graph TD
     K --> L[Fine]
 ```
 ### Tecnologie adottate
-Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la qualità delle diverse fasi del progetto.
 Le tecnologie utilizzate sono state selezionate per garantire l'efficacia e la qualità delle diverse fasi del progetto, offrendo strumenti adeguati sia per la creazione dei contenuti che per la loro gestione e distribuzione. Ecco una panoramica delle tecnologie principali e del loro contributo:
 
 | Tecnologia  | Contributo principale |
